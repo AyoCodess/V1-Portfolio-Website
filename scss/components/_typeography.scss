@@ -1,0 +1,47 @@
+@use '../custom' as *;
+
+//?GLOBAL FONTS
+
+body {
+  font-family: "Lato", sans-serif !important;
+  font-weight: 300;
+}
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+
+  &--intro {
+    display: inline-block;
+    font-weight: 700;
+    color: $white;
+  }
+
+  &--description {
+    font-size: 1rem;
+    display: block;
+    color: $white;
+    margin-top: 1.2rem;
+    text-transform: none;
+    font-size: 1.5rem;
+  }
+}
+
+//? NAVBAR
+
+.menu {
+  li {
+    a {
+      font-weight: 300;
+    }
+  }
+
+  button {
+    font-weight: 300;
+  }
+}
+
+.navbar-brand {
+  //!LOGO
+  font-weight: 500;
+}

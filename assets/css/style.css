@@ -1,9 +1,4 @@
 @charset "UTF-8";
-body {
-  font-family: "Lato", sans-serif !important;
-  font-weight: 300;
-}
-
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10770,6 +10765,40 @@ textarea.form-control-lg {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+body {
+  font-family: "Lato", sans-serif !important;
+  font-weight: 300;
+}
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 700;
+  color: #fff;
+}
+.display-2--description {
+  font-size: 1rem;
+  display: block;
+  color: #fff;
+  margin-top: 1.2rem;
+  text-transform: none;
+  font-size: 1.5rem;
+}
+
+.menu li a {
+  font-weight: 300;
+}
+.menu button {
+  font-weight: 300;
+}
+
+.navbar-brand {
+  font-weight: 500;
+}
+
 .navbar-brand {
   color: #fff !important;
 }
@@ -10793,6 +10822,13 @@ textarea.form-control-lg {
 
 .navbar-toggler:focus {
   box-shadow: none;
+}
+
+.intro-section {
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
