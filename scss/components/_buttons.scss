@@ -5,6 +5,7 @@
   @include media-breakpoint-down(xxl) {
     display: none;
   }
+
   position: relative;
   padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
   font-weight: 700;
@@ -35,6 +36,12 @@
 
     span {
       background-color: rgba($black, 0.6);
+    }
+  }
+
+  &--project-showcase {
+    @include media-breakpoint-down(xxl) {
+      display: inline-block;
     }
   }
 }
