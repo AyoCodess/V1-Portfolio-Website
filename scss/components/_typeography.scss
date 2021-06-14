@@ -24,6 +24,11 @@ body {
     margin-top: 1.2rem;
     text-transform: none;
     font-size: 1.5rem;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 1rem;
+      padding: 0 3rem;
+    }
   }
 }
 
@@ -44,4 +49,27 @@ body {
 .navbar-brand {
   //!LOGO
   font-weight: 500;
+}
+
+//? WORKED WITH - LINE
+
+.heading-line::before {
+  content: "";
+  max-width: 15rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: $primary;
+}
+
+.heading-line::after {
+  content: "";
+  max-width: 5rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  background-color: $primary;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
 }
