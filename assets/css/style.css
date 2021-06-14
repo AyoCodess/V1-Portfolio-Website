@@ -10780,6 +10780,17 @@ textarea.form-control-lg {
   }
 }
 
+.btn-container {
+  display: flex;
+  justify-content: start;
+  white-space: nowrap;
+}
+@media (max-width: 575.98px) {
+  .btn-container {
+    justify-content: center;
+  }
+}
+
 body {
   font-family: "Lato", sans-serif !important;
   font-weight: 300;
@@ -10807,6 +10818,19 @@ body {
     font-size: 1rem;
     padding: 0 3rem;
   }
+}
+
+.display-3--title {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  background-image: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  white-space: nowrap;
 }
 
 .menu li a {
@@ -10942,6 +10966,29 @@ body {
 }
 .companies__logo-box img:hover {
   filter: grayscale(120);
+}
+
+.project-showcase-title {
+  margin-top: 6rem;
+}
+
+.project-showcase-main-heading {
+  display: flex;
+  align-content: center;
+}
+
+.project-showcase {
+  position: relative;
+}
+.project-showcase__content {
+  padding: 0rem 1rem;
+}
+.project-showcase__content img {
+  width: 75%;
+}
+.project-showcase__content .icon {
+  font-size: 2.5rem;
+  color: #302b63;
 }
 
 /*# sourceMappingURL=style.css.map */

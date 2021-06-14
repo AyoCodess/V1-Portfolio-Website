@@ -45,3 +45,13 @@
     }
   }
 }
+
+.btn-container {
+  display: flex;
+  justify-content: start;
+  white-space: nowrap;
+
+  @include media-breakpoint-down(sm) {
+    justify-content: center;
+  }
+}

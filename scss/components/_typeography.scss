@@ -33,6 +33,18 @@ body {
 }
 
 .display-3 {
+  &--title {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    background-image: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+  }
 }
 
 //? NAVBAR
