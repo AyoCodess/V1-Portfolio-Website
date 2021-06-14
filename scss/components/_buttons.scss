@@ -43,15 +43,21 @@
     @include media-breakpoint-down(xxl) {
       display: inline-block;
     }
+
+    &--project-showcase {
+      @include media-breakpoint-down(373px) {
+        display: inline-block;
+      }
+    }
   }
-}
 
-.btn-container {
-  display: flex;
-  justify-content: start;
-  white-space: nowrap;
+  .btn-container {
+    display: flex;
+    justify-content: start;
+    white-space: nowrap;
 
-  @include media-breakpoint-down(sm) {
-    justify-content: center;
+    @include media-breakpoint-down(md) {
+      justify-content: center;
+    }
   }
 }

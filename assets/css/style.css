@@ -10779,14 +10779,16 @@ textarea.form-control-lg {
     display: inline-block;
   }
 }
-
-.btn-container {
+.btn-rounded--project-showcase--project-showcase {
+  display: inline-block;
+}
+.btn-rounded .btn-container {
   display: flex;
   justify-content: start;
   white-space: nowrap;
 }
-@media (max-width: 575.98px) {
-  .btn-container {
+@media (max-width: 767.98px) {
+  .btn-rounded .btn-container {
     justify-content: center;
   }
 }
@@ -10831,6 +10833,11 @@ body {
   margin-left: 1rem;
   margin-bottom: 1rem;
   white-space: nowrap;
+}
+@media (max-width: 767.98px) {
+  .display-3--title {
+    white-space: normal;
+  }
 }
 
 .menu li a {
@@ -10982,9 +10989,6 @@ body {
 }
 .project-showcase__content {
   padding: 0rem 1rem;
-}
-.project-showcase__content img {
-  width: 75%;
 }
 .project-showcase__content .icon {
   font-size: 2.5rem;
