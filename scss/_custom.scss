@@ -1,9 +1,17 @@
-//MY THEME COLORS
-$blue: #0575e6;
-$blue-dark: #021b79;
+body {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300;
+  
+}
 
-$primary: $blue;
-$secondary: $blue-dark;
+//MY THEME COLORS
+$main-blue: #302b63;
+$blue-dark2: #0f0c29;
+$blue-dark1: #24243e;
+
+$primary: $main-blue;
+$secondary: $blue-dark1;
+$secondary2: $blue-dark2;
 
 // WHITE AND GRAY COLORS
 
@@ -30,3 +38,5 @@ $accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3
 
 // IMPORT BOOTSTRAP
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
