@@ -10729,6 +10729,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
 .btn-rounded {
   position: relative;
   padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
@@ -10841,7 +10851,7 @@ body {
   transform: translate(-50%, -50%);
 }
 .intros .video-box a span i {
-  font-size: 6rem;
+  font-size: 5rem;
   color: #fff;
 }
 
@@ -10851,6 +10861,23 @@ body {
   height: 100px;
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
   clip-path: ellipse(55% 100% at 50% 0%);
+}
+
+.border-animation {
+  position: absolute;
+  top: -20%;
+  right: -55%;
+  width: 7.5rem;
+  height: 7.5rem;
+  border: 0.55rem solid #fff;
+  border-radius: 50%;
+  animation: pulse-border 1.5s linear infinite;
+}
+.border-animation--1 {
+  animation-delay: 1s;
+}
+.border-animation--2 {
+  animation-delay: 1.5s;
 }
 
 /*# sourceMappingURL=style.css.map */
