@@ -10836,6 +10836,11 @@ body {
   border-bottom-left-radius: 100px;
 }
 
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 100%;
+}
+
 .navbar-brand {
   color: #fff !important;
 }
@@ -10929,6 +10934,9 @@ body {
 }
 .companies__logo-box img {
   height: 100%;
+}
+.companies__logo-box img:hover {
+  filter: grayscale(120);
 }
 
 /*# sourceMappingURL=style.css.map */

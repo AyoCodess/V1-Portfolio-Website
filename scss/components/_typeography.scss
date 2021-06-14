@@ -32,6 +32,9 @@ body {
   }
 }
 
+.display-3 {
+}
+
 //? NAVBAR
 
 .menu {
@@ -72,4 +75,11 @@ body {
   background-color: $primary;
   border-bottom-right-radius: 100px;
   border-bottom-left-radius: 100px;
+}
+
+// ? border-right
+
+.border-right {
+  border-right: 0.1rem solid $gray-300;
+  height: 100%;
 }
