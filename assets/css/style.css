@@ -10831,4 +10831,26 @@ body {
   height: 100%;
 }
 
+.intros .video-box {
+  position: relative;
+}
+.intros .video-box a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.intros .video-box a span i {
+  font-size: 6rem;
+  color: #fff;
+}
+
+.background-bottom {
+  display: block;
+  box-sizing: border-box;
+  height: 100px;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  clip-path: ellipse(55% 100% at 50% 0%);
+}
+
 /*# sourceMappingURL=style.css.map */
