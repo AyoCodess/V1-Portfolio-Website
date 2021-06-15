@@ -1,0 +1,28 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.background-bottom--inverse {
+  display: block;
+  box-sizing: border-box;
+  height: 100px;
+
+  @include gradient;
+
+  clip-path: ellipse(63% 100% at 50% 100%);
+}
+
+.testimonials {
+  position: relative;
+  @include gradient;
+
+  h1,
+  p,
+  hr {
+    color: $white;
+  }
+
+  hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}

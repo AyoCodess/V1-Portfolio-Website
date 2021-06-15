@@ -11058,6 +11058,28 @@ body {
   }
 }
 
+.background-bottom--inverse {
+  display: block;
+  box-sizing: border-box;
+  height: 100px;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  clip-path: ellipse(63% 100% at 50% 100%);
+}
+
+.testimonials {
+  position: relative;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+.testimonials h1,
+.testimonials p,
+.testimonials hr {
+  color: #fff;
+}
+.testimonials hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .project-showcase-main-heading {
   display: flex;
   align-content: center;
@@ -11075,6 +11097,11 @@ body {
 .project-showcase__content .icon {
   font-size: 2.5rem;
   color: #302b63;
+}
+@media (max-width: 411px) {
+  .project-showcase__content .icon {
+    margin-top: 1rem;
+  }
 }
 @media (max-width: 991.98px) {
   .project-showcase__content img {
