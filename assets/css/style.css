@@ -11159,4 +11159,10 @@ body {
   margin-bottom: 2rem;
 }
 
+@media (max-width: 991.98px) {
+  .project-showcase img:last-child {
+    margin-bottom: 0rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

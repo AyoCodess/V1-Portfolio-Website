@@ -37,3 +37,11 @@
     }
   }
 }
+
+.project-showcase {
+  img:last-child {
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 0rem;
+    }
+  }
+}
