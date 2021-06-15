@@ -11072,12 +11072,16 @@ body {
 }
 .testimonials h1,
 .testimonials p,
-.testimonials hr {
+.testimonials hr,
+.testimonials h3 {
   color: #fff;
 }
 .testimonials hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+.testimonials i {
+  color: white;
 }
 
 .project-showcase-main-heading {

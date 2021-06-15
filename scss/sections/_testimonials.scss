@@ -17,12 +17,17 @@
 
   h1,
   p,
-  hr {
+  hr,
+  h3 {
     color: $white;
   }
 
   hr {
     margin-top: 2rem;
     margin-bottom: 2rem;
+  }
+
+  i {
+    color: white;
   }
 }
