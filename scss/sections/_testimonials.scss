@@ -50,6 +50,7 @@
     .ratings {
       font-size: 1.5rem;
       color: $yellow;
+      padding-bottom: 1rem;
     }
   }
 
@@ -57,7 +58,6 @@
     width: 7rem;
     height: 7rem;
     position: absolute;
-    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 
