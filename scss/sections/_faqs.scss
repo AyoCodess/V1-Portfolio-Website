@@ -1,0 +1,10 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.faq-main-heading {
+  margin-top: 4rem;
+
+  p {
+    margin-top: 1rem;
+  }
+}

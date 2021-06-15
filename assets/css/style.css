@@ -11127,6 +11127,13 @@ body {
   text-transform: capitalize;
 }
 
+.faq-main-heading {
+  margin-top: 4rem;
+}
+.faq-main-heading p {
+  margin-top: 1rem;
+}
+
 .project-showcase-main-heading {
   display: flex;
   align-content: center;
