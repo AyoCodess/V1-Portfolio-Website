@@ -1,0 +1,54 @@
+@use '../custom' as *;
+
+.about-me {
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+
+  h1 {
+    margin-bottom: 3rem;
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  h2 {
+    @include media-breakpoint-down(sm) {
+      text-align: center;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.about-me-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 571px) {
+    padding: 0rem 2rem;
+  }
+}
+
+// ? border-right
+
+.border-line {
+  border-left: 0.1rem solid $gray-300;
+  height: 100%;
+
+  @include media-breakpoint-down(md) {
+    border-left: none;
+  }
+}
+
+.para {
+  padding: 1.5rem;
+
+  @include media-breakpoint-down(md) {
+    padding: 0rem;
+    padding-top: 1rem;
+  }
+}

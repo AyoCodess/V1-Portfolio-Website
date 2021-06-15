@@ -48,6 +48,11 @@ body {
     @include media-breakpoint-down(md) {
       white-space: normal;
     }
+
+    @include media-breakpoint-down(sm) {
+      margin-left: 0rem;
+      margin-bottom: 1rem;
+    }
   }
 }
 
@@ -70,7 +75,7 @@ body {
   font-weight: 500;
 }
 
-//? WORKED WITH - LINE
+//? WORKED WITH - LINE & OTHER
 
 .heading-line::before {
   content: "";
@@ -93,9 +98,13 @@ body {
   border-bottom-left-radius: 100px;
 }
 
-// ? border-right
+.separator {
+  border-bottom: 0.1rem solid $gray-300;
+  width: 100%;
+}
 
-.border-right {
-  border-right: 0.1rem solid $gray-300;
-  height: 100%;
+.text-gradient {
+  background-image: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

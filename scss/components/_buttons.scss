@@ -50,14 +50,33 @@
       }
     }
   }
+}
 
-  .btn-container {
-    display: flex;
-    justify-content: start;
-    white-space: nowrap;
+.btn-container {
+  display: flex;
+  justify-content: start;
+  white-space: nowrap;
 
-    @include media-breakpoint-down(md) {
-      justify-content: center;
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    button:first-child {
+      margin-bottom: 1rem;
+    }
+
+    .btn2 {
+      margin-left: 0rem;
     }
   }
+}
+
+.rounded-pill--mod {
+  border: 0.5px solid;
+  border-color: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.btn2 {
+  margin-left: 3rem;
 }
