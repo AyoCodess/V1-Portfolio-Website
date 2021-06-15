@@ -16,10 +16,13 @@
   @include gradient;
 
   h1,
+  hr {
+    color: white;
+  }
+
   p,
-  hr,
   h3 {
-    color: $white;
+    color: $primary;
   }
 
   hr {
@@ -27,7 +30,55 @@
     margin-bottom: 2rem;
   }
 
-  i {
+  .sub-head {
     color: white;
+    margin-bottom: 3rem;
+  }
+
+  .quotes {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  &__card {
+    background-color: rgba(white, 0.8);
+    padding: 2rem 1.25rem;
+    border-radius: 0.625rem;
+    height: auto;
+    text-align: center;
+
+    .ratings {
+      font-size: 1.5rem;
+      color: $yellow;
+    }
+  }
+
+  &__picture {
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    img {
+      border: 0.325rem solid rgba($secondary, 0.7);
+    }
+  }
+
+  &__name {
+    padding-top: 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 500;
+    h3 {
+      color: white;
+      text-transform: capitalize;
+    }
+
+    p {
+      color: white;
+      text-transform: capitalize;
+    }
   }
 }

@@ -11071,17 +11071,60 @@ body {
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
 }
 .testimonials h1,
+.testimonials hr {
+  color: white;
+}
 .testimonials p,
-.testimonials hr,
 .testimonials h3 {
-  color: #fff;
+  color: #302b63;
 }
 .testimonials hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.testimonials i {
+.testimonials .sub-head {
   color: white;
+  margin-bottom: 3rem;
+}
+.testimonials .quotes {
+  color: white;
+  font-size: 1.5rem;
+}
+.testimonials__card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem 1.25rem;
+  border-radius: 0.625rem;
+  height: auto;
+  text-align: center;
+}
+.testimonials__card .ratings {
+  font-size: 1.5rem;
+  color: #ffc107;
+}
+.testimonials__picture {
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonials__picture img {
+  border: 0.325rem solid rgba(36, 36, 62, 0.7);
+}
+.testimonials__name {
+  padding-top: 5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+.testimonials__name h3 {
+  color: white;
+  text-transform: capitalize;
+}
+.testimonials__name p {
+  color: white;
+  text-transform: capitalize;
 }
 
 .project-showcase-main-heading {
