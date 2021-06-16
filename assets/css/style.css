@@ -11268,10 +11268,35 @@ body {
 
 .text-form-bg {
   background: linear-gradient(to right bottom, #e2db03, #bea00e);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .input-form-bg {
   background: linear-gradient(to right bottom, #ffffff, #dedede);
+}
+
+.contact-me-info {
+  text-align: center;
+}
+@media (max-width: 991.98px) {
+  .contact-me-info {
+    text-align: left;
+  }
+}
+
+.form-button {
+  background-image: linear-gradient(to right bottom, #e2db03, #bea00e);
+  border-width: 0rem;
+  color: #302b63;
+  font-family: 700;
+  font-size: 1.2rem;
+}
+.form-button:hover {
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

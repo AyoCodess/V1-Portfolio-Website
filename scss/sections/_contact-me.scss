@@ -19,6 +19,10 @@
 }
 .text-form-bg {
   background: linear-gradient(to right bottom, #e2db03, #bea00e);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .input-form-bg {
@@ -27,4 +31,22 @@
 }
 
 .contact-me-info {
+  text-align: center;
+
+  @include media-breakpoint-down(lg) {
+    text-align: left;
+  }
+}
+
+.form-button {
+  background-image: linear-gradient(to right bottom, #e2db03, #bea00e);
+  border-width: 0rem;
+  color: $primary;
+  font-family: 700;
+  font-size: 1.2rem;
+
+  &:hover {
+    @include gradient;
+    color: white;
+  }
 }
