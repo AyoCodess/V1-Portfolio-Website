@@ -11134,11 +11134,28 @@ body {
   margin-top: 1rem;
 }
 
+@media (max-width: 348px) {
+  .portfolio-heading p {
+    margin-bottom: 2rem;
+  }
+}
+
 .filter-buttons {
   margin-bottom: 5rem;
 }
 .filter-buttons button:not(:last-child) {
   margin-right: 1rem;
+}
+@media (max-width: 348px) {
+  .filter-buttons {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .filter-buttons button:last-child {
+    margin-top: 1rem;
+  }
 }
 
 .project-showcase-main-heading {
