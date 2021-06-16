@@ -11247,4 +11247,31 @@ body {
   }
 }
 
+.contact-bg {
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  color: white;
+}
+
+.form-content {
+  color: #302b63;
+}
+@media (max-width: 636px) {
+  .form-content {
+    padding: 0rem 2rem;
+  }
+}
+@media (max-width: 370px) {
+  .form-content {
+    margin-top: 1rem;
+  }
+}
+
+.text-form-bg {
+  background: linear-gradient(to right bottom, #e2db03, #bea00e);
+}
+
+.input-form-bg {
+  background: linear-gradient(to right bottom, #ffffff, #dedede);
+}
+
 /*# sourceMappingURL=style.css.map */

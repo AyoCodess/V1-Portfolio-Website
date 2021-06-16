@@ -1,0 +1,30 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.contact-bg {
+  @include gradient;
+  color: white;
+}
+
+.form-content {
+  color: $primary;
+
+  @media (max-width: 636px) {
+    padding: 0rem 2rem;
+  }
+
+  @media (max-width: 370px) {
+    margin-top: 1rem;
+  }
+}
+.text-form-bg {
+  background: linear-gradient(to right bottom, #e2db03, #bea00e);
+}
+
+.input-form-bg {
+  background: linear-gradient(to right bottom, #ffffff, #dedede);
+  // opacity: 0.9;
+}
+
+.contact-me-info {
+}
