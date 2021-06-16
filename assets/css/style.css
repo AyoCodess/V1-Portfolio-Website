@@ -11138,22 +11138,18 @@ body {
   text-transform: capitalize;
 }
 
-.with-linear-gradient {
-  border-top-style: solid;
-  border-width: 0.5rem;
-  border-image: linear-gradient(to right, #24243e, #302b63, #0f0c29) 1;
-}
-
 .portfolio-box {
   position: relative;
   width: 100%;
-  height: 18.5rem;
+  max-height: 18.5rem;
   overflow: hidden;
   margin-bottom: 1.2rem;
+  border-top-style: solid;
+  border-width: 0.5rem;
+  border-color: #302b63;
 }
 .portfolio-box img {
   width: 100%;
-  height: 100%;
 }
 .portfolio-box .portfolio-info {
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
@@ -11162,6 +11158,7 @@ body {
   height: 100%;
   position: absolute;
   top: 0;
+  left: 0;
   opacity: 0;
   visibility: hidden;
 }
@@ -11175,6 +11172,11 @@ body {
 }
 .portfolio-box .portfolio-info .caption h4 {
   text-transform: uppercase;
+}
+.portfolio-box:hover img {
+  transform: scale(1.5);
+  transition-duration: 1s;
+  transition-property: all;
 }
 .portfolio-box:hover .portfolio-info {
   opacity: 1;

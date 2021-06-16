@@ -7,22 +7,27 @@
   }
 }
 
-.with-linear-gradient {
-  border-top-style: solid;
-  border-width: 0.5rem;
-  border-image: linear-gradient(to right, #24243e, #302b63, #0f0c29) 1;
-}
+// safari has issues rendering gradient-color borders lines
+// .with-linear-gradient {
+//   border-top-style: solid;
+//   border-width: 0.5rem;
+//   border-image: linear-gradient(to right, #24243e, #302b63, #0f0c29) 1;
+// }
 
 .portfolio-box {
   position: relative;
   width: 100%;
-  height: 18.5rem;
+  max-height: 18.5rem;
   overflow: hidden;
   margin-bottom: 1.2rem;
 
+  border-top-style: solid;
+  border-width: 0.5rem;
+  border-color: #302b63;
+
   img {
     width: 100%;
-    height: 100%;
+    // height: 100%;
   }
 
   .portfolio-info {
@@ -34,6 +39,7 @@
     height: 100%;
     position: absolute;
     top: 0;
+    left: 0;
 
     opacity: 0;
     visibility: hidden;
@@ -50,6 +56,10 @@
   }
 
   &:hover {
+    img {
+      transform: scale(1.5);
+      @include transition-property;
+    }
     .portfolio-info {
       opacity: 1;
       visibility: visible;
