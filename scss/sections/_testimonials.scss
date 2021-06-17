@@ -1,6 +1,10 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
+.carousel-inner {
+  height: 25rem;
+}
+
 .background-bottom--inverse {
   display: block;
   box-sizing: border-box;

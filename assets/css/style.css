@@ -11058,6 +11058,10 @@ body {
   }
 }
 
+.carousel-inner {
+  height: 25rem;
+}
+
 .background-bottom--inverse {
   display: block;
   box-sizing: border-box;
@@ -11172,6 +11176,9 @@ body {
 }
 .portfolio-box .portfolio-info .caption h4 {
   text-transform: uppercase;
+}
+.portfolio-box .portfolio-info .caption p {
+  text-transform: capitalize;
 }
 .portfolio-box:hover img {
   transform: scale(1.5);
