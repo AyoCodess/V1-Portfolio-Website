@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch scss:assets/css"
+    "sass": "sass --watch scss:assets/css",
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "@fortawesome/fontawesome-free": "^5.15.3",
     "autoprefixer": "^10.2.6",
     "bootstrap": "^5.0.1",
+    "parcel-bundler": "^1.12.5",
     "postcss-cli": "^8.3.1"
   }
 }
