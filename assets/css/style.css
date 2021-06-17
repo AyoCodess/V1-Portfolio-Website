@@ -11695,28 +11695,52 @@ body {
 }
 
 .input-form-bg {
-  background: linear-gradient(to right bottom, #ffffff, #dedede);
+  background: white;
 }
 
 .contact-me-info {
   text-align: center;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+.contact-me-info p {
+  margin-top: 1rem;
+}
+@media (max-width: 575.98px) {
+  .contact-me-info p {
+    text-align: center;
+  }
 }
 @media (max-width: 991.98px) {
   .contact-me-info {
     text-align: left;
   }
 }
+@media (max-width: 575.98px) {
+  .contact-me-info h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
 
 .form-button {
-  background-image: linear-gradient(to right bottom, #e2db03, #bea00e);
+  background-image: linear-gradient(to right bottom, #24243e, #secondary2);
   border-width: 0rem;
-  color: #302b63;
+  color: white;
   font-family: 700;
   font-size: 1.2rem;
 }
 .form-button:hover {
-  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-  color: white;
+  background-image: linear-gradient(to right bottom, gold, yellow);
+  color: #302b63;
+}
+
+.form-control {
+  border-radius: 1rem;
+}
+
+.form-control-lg {
+  border-radius: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

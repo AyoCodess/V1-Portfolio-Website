@@ -26,27 +26,53 @@
 }
 
 .input-form-bg {
-  background: linear-gradient(to right bottom, #ffffff, #dedede);
+  background: white;
   // opacity: 0.9;
 }
 
 .contact-me-info {
   text-align: center;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+
+  p {
+    margin-top: 1rem;
+  }
+
+  @include media-breakpoint-down(sm) {
+    p {
+      text-align: center;
+    }
+  }
 
   @include media-breakpoint-down(lg) {
     text-align: left;
   }
+
+  @include media-breakpoint-down(sm) {
+    h4 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
 }
 
 .form-button {
-  background-image: linear-gradient(to right bottom, #e2db03, #bea00e);
+  background-image: linear-gradient(to right bottom, $secondary, #secondary2);
   border-width: 0rem;
-  color: $primary;
+  color: white;
   font-family: 700;
   font-size: 1.2rem;
 
   &:hover {
-    @include gradient;
-    color: white;
+    background-image: linear-gradient(to right bottom, gold, yellow);
+    color: $primary;
   }
+}
+
+.form-control {
+  border-radius: 1rem;
+}
+.form-control-lg {
+  border-radius: 1rem;
 }
