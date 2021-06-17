@@ -33,3 +33,17 @@
 .show {
   display: block;
 }
+
+#about-me,
+#contact-me,
+#companies,
+#key-projects,
+#testimonials,
+#faqs,
+#portfolio::before {
+  content: "";
+  display: block;
+  height: 75px;
+  margin-top: -75px;
+  visibility: hidden;
+}

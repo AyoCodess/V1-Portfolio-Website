@@ -10747,6 +10747,20 @@ textarea.form-control-lg {
   display: block;
 }
 
+#about-me,
+#contact-me,
+#companies,
+#key-projects,
+#testimonials,
+#faqs,
+#portfolio::before {
+  content: "";
+  display: block;
+  height: 75px;
+  margin-top: -75px;
+  visibility: hidden;
+}
+
 .btn-rounded {
   position: relative;
   padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
@@ -11013,7 +11027,6 @@ body {
 
 .about-me {
   margin-bottom: 5rem;
-  margin-top: 2rem;
 }
 .about-me h1 {
   margin-bottom: 3rem;
@@ -11296,6 +11309,11 @@ body {
 }
 .social-media-footer .text-area .text {
   font-size: 1.5rem;
+}
+@media (max-width: 391px) {
+  .social-media-footer .text-area .text {
+    font-size: 1.2rem;
+  }
 }
 .social-media-footer .sm-icons {
   display: flex;
