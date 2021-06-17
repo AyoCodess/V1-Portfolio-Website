@@ -11209,6 +11209,13 @@ body {
   }
 }
 
+@media (max-width: 991px) {
+  .f-email,
+.f-location {
+    margin-bottom: 1rem;
+  }
+}
+
 .footer {
   padding-top: 1rem;
 }
@@ -11220,8 +11227,14 @@ body {
 .contact-box {
   padding: 1rem;
 }
+@media (max-width: 991px) {
+  .contact-box {
+    flex-direction: column;
+  }
+}
 .contact-box__info {
   font-size: 1.3rem;
+  white-space: nowrap;
 }
 .contact-box__subtitle {
   text-transform: capitalize;
@@ -11233,9 +11246,20 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 991px) {
+  .contact-box__flex {
+    justify-content: start;
+    align-items: center;
+  }
+}
 .contact-box__flex .flex-2 {
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 991px) {
+  .contact-box__flex .flex-2 {
+    align-items: flex-start;
+  }
 }
 .contact-box__flex svg {
   margin-right: 1rem;
