@@ -11266,6 +11266,49 @@ body {
   stroke: #302b63;
 }
 
+.social-media-footer {
+  background-color: white;
+  color: #302b63;
+}
+.social-media-footer .row-sm-container {
+  justify-content: center;
+  align-items: center;
+}
+.social-media-footer .text-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media-footer .text-area .text {
+  font-size: 1.5rem;
+}
+.social-media-footer .sm-icons {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+@media (max-width: 766px) {
+  .social-media-footer .sm-icons {
+    margin-top: 1rem;
+  }
+}
+.social-media-footer .sm-icons .fa-github {
+  margin-right: 1rem;
+}
+.social-media-footer .sm-icons .fa-twitter {
+  margin-right: 1rem;
+}
+.social-media-footer .copy-right {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.social-media-footer .flex-3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .project-showcase-main-heading {
   display: flex;
   align-content: center;
