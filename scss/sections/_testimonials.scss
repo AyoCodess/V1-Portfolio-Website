@@ -3,6 +3,10 @@
 
 .carousel-inner {
   height: 25rem;
+
+  @media (max-width: 930px) {
+    height: auto;
+  }
 }
 
 .background-bottom--inverse {

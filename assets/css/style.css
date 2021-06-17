@@ -11082,6 +11082,11 @@ body {
 .carousel-inner {
   height: 25rem;
 }
+@media (max-width: 930px) {
+  .carousel-inner {
+    height: auto;
+  }
+}
 
 .background-bottom--inverse {
   display: block;
