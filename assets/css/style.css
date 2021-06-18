@@ -11476,7 +11476,7 @@ body {
 }
 .portfolio-box .portfolio-info .caption {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -11487,6 +11487,12 @@ body {
 }
 .portfolio-box .portfolio-info .caption p {
   text-transform: capitalize;
+}
+.portfolio-box .portfolio-info .portfolio-button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .portfolio-box:hover img {
   transform: scale(1.5);
