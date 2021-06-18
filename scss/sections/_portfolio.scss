@@ -14,6 +14,14 @@
 //   border-image: linear-gradient(to right, #24243e, #302b63, #0f0c29) 1;
 // }
 
+.portfolio-heading {
+  p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #302b63;
+  }
+}
+
 .portfolio-box {
   position: relative;
   width: 100%;
