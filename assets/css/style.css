@@ -11634,6 +11634,10 @@ body {
   stroke: #302b63;
 }
 
+.footer-link {
+  text-decoration: none;
+}
+
 .social-media-footer {
   background-color: white;
   color: #302b63;
