@@ -11038,8 +11038,8 @@ textarea.form-control-lg {
 #portfolio::before {
   content: "";
   display: block;
-  height: 75px;
-  margin-top: -75px;
+  height: 130px;
+  margin-top: -130px;
   visibility: hidden;
 }
 
@@ -11512,22 +11512,69 @@ body {
   }
 }
 
+.filter-buttons-container {
+  width: 45%;
+  margin: 0 auto;
+}
+@media (max-width: 1199px) {
+  .filter-buttons-container {
+    width: 40%;
+  }
+}
+@media (max-width: 991px) {
+  .filter-buttons-container {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .filter-buttons-container {
+    width: 65%;
+  }
+}
+@media (max-width: 538px) {
+  .filter-buttons-container {
+    width: 70%;
+  }
+}
+@media (max-width: 490px) {
+  .filter-buttons-container {
+    width: 80%;
+  }
+}
+@media (max-width: 433px) {
+  .filter-buttons-container {
+    width: 90%;
+  }
+}
+@media (max-width: 409px) {
+  .filter-buttons-container {
+    width: 100%;
+  }
+}
+
 .filter-buttons {
-  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
 }
-.filter-buttons button:not(:last-child) {
-  margin-right: 1rem;
+.filter-buttons .frame {
+  margin: 0.5rem 0rem;
 }
-@media (max-width: 348px) {
-  .filter-buttons {
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .filter-buttons button:last-child {
-    margin-top: 1rem;
-  }
+.filter-buttons #all {
+  order: 4;
+}
+.filter-buttons #hide {
+  order: 5;
+}
+.filter-buttons #apps {
+  order: 2;
+}
+.filter-buttons #websites {
+  order: 1;
+}
+.filter-buttons #components {
+  order: 3;
 }
 
 @media (max-width: 991px) {

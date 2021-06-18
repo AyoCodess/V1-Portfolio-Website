@@ -90,21 +90,60 @@
   }
 }
 
-.filter-buttons {
-  margin-bottom: 5rem;
+.filter-buttons-container {
+  width: 45%;
+  margin: 0 auto;
 
-  button:not(:last-child) {
-    margin-right: 1rem;
+  @media (max-width: 1199px) {
+    width: 40%;
   }
 
-  @media (max-width: 348px) {
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  @media (max-width: 991px) {
+    width: 50%;
+  }
+  @media (max-width: 767px) {
+    width: 65%;
+  }
+  @media (max-width: 538px) {
+    width: 70%;
+  }
+  @media (max-width: 490px) {
+    width: 80%;
+  }
+  @media (max-width: 433px) {
+    width: 90%;
+  }
+  @media (max-width: 409px) {
+    width: 100%;
+  }
+}
+.filter-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
 
-    button:last-child {
-      margin-top: 1rem;
-    }
+  .frame {
+    margin: 0.5rem 0rem;
+  }
+
+  #all {
+    order: 4;
+  }
+
+  #hide {
+    order: 5;
+  }
+
+  #apps {
+    order: 2;
+  }
+
+  #websites {
+    order: 1;
+  }
+
+  #components {
+    order: 3;
   }
 }
