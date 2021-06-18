@@ -3,4 +3,5 @@ node_modules
 .parcel-cashe
 .prettierignore
 theming-kit.html
+.htmlnanorc
 
