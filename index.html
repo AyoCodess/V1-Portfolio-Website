@@ -763,14 +763,22 @@
         
         <div class="col-12 col-lg-6 shodow p-3 input-form-bg">
           <div class="input-fields">
-            <form action="#" class="row p-2">
-              <input type="text" placeholder="Name" id="inputFirstName" class="form-control shadow mb-2 form-control-lg">
-              <input type="email" placeholder="Email" id="inputEmail" class="form-control shadow mb-2 form-control-lg">
-              <textarea name="message" id="message" placeholder="Your Message" rows="5" class="form-control shadow form-control-lg"></textarea>
-              <div class="text-center d-grid mt-1">
-                <button type="button" class="btn btn-primary rounded-pill mt-3 pt-3pb-3 form-button">Submit
-                  <i class="fas fa-paper-plane"></i>
-                </button>
+            
+            <form action="#">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="nme-form" placeholder="Name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email-form" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="Textarea" class="form-label">Message</label>
+                <textarea class="form-control" id="message-form" rows="3"></textarea>
+              </div>
+              <div >
+                <button type="submit" class="btn btn-primary">Submit</button>
               </div>
             </form>
 
@@ -881,6 +889,8 @@
      </div>
      </div>
    </footer>
+
+   
 
     <!-- ? BACKGROUND ROUNDED BOTTOM AREA -->
     <div class="background-bottom--inverse"></div>
