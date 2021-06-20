@@ -764,18 +764,18 @@
         <div class="col-12 col-lg-6 shodow p-3 input-form-bg">
           <div class="input-fields">
             
-            <form action="#">
+            <form name="contact" method="POST" data-netlify="true">
               <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="nme-form" placeholder="Name">
+                <label for="Your name" class="form-label">Name</label>
+                <input name="name" type="text" class="form-control" id="nme-form" placeholder="Name">
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email-form" placeholder="name@example.com">
+                <label for="Your email" class="form-label">Email address</label>
+                <input name="email" type="email" class="form-control" id="email-form" placeholder="name@example.com">
               </div>
               <div class="mb-3">
-                <label for="Textarea" class="form-label">Message</label>
-                <textarea class="form-control" id="message-form" rows="3"></textarea>
+                <label for="Your Message" class="form-label">Message</label>
+                <textarea name ="message" class="form-control" id="message-form" rows="3"></textarea>
               </div>
               <div >
                 <button type="submit" class="btn btn-primary">Submit</button>
