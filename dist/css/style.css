@@ -1,0 +1,2 @@
+@use 'custom';@use 'components/animations';@use 'components/buttons';@use 'components/mixins';@use 'components/typeography';@use 'sections/navbar';@use 'sections/intro-sections';@use 'sections/company';@use 'sections/about-me';@use 'sections/testimonials';@use 'sections/faqs';@use 'sections/portfolio';@use 'sections/footer';@use 'sections/project-showcase';@use 'sections/contact-me';@use 'sections/modal'
+/*# sourceMappingURL=style.css.map */
