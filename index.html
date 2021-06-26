@@ -24,6 +24,9 @@
   <!--? Font -->
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
+
+          
+
 </head>
 <body>
   
@@ -129,18 +132,32 @@
   <!--? company logo -->
 
   <div class="container">
-    <row class="">
-      <div class="col"> <!-- * new logos will be added vua a new col div (col-md-4)-->
-        <div class="companies__logo-box">
+    <div id="company-slide" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner active">
+        <div class="carousel-item active">
           <a href="http://www.stopholdingback.org" target="_blank">
             <img src="images/companies/company-1.png" alt="stop holding back logo" title="stop holding back logo" class="img-fluid">
           </a>
         </div>
+        <div class="carousel-item">
+          <a href="http://www.benetalk.com" target="_blank">
+            <img src="/images/companies/company-3.png" alt="stop holding back logo" title="stop holding back logo" class="img-fluid">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="" target="_blank">
+            <img src="images/companies/company-2.png" alt="stop holding back logo" title="stop holding back logo" class="img-fluid">
+          </a>
+        </div>
       </div>
-    </row>
+    </div>
   </div>
+
+   
 </section>
 
+
+<div class="separator mb-5"></div>
 
 <!-- ////////////////////////////////////////////////////////////////////////////////////////
                                  About Me                                 
@@ -558,6 +575,10 @@
   <div id="portfolio"></div>
    <section  class="portfolio">
      <div class="container">
+     
+
+     
+      
        <div class="row text-center portfolio-heading">
 
         <h1 class="display-3 fw-bold">All Projects</h1>
@@ -576,163 +597,195 @@
        </div>
      
 
-       <!--? PORTFOLIO CONTENT-->
+      <!--? PORTFOLIO CONTENT-->
+      
+<div class="row">
 
-       <div class="row">
+   
 
-        <div class="col-lg-4 col-md-6 websites all p-item">
-          <div class="portfolio-box shadow with-linear-gradient">
-            <img src="images/portfolio/portfolio-2.png" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
-            <div class="portfolio-info">
-              <div class="caption">
-                <div class="caption-title">Luxury Real Estate Company Landing page</div>
-                <p>websites</p>
-              </div>
-              <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="luxury-real-estate-company" data-bs-live-demo="https://realtor-landing-page-css-grid.netlify.app/" data-bs-github="https://github.com/AyoCodess/CSS-Grid-Landing-Page">
-                <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
-                 More Info
-                              </button>
-              </a>
-            </div>
-          </div>
+  <div class="col-lg-4 col-md-6 websites all p-item">
+
+    <div class="loader" id="loader">
+      <img src="/images/loader/loader.svg" alt="">
+    </div>
+    
+     <div class="portfolio-box shadow with-linear-gradient ">
+        <img src="images/portfolio/portfolio-2.png" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid  ">
+        <div class="portfolio-info">
+           <div class="caption">
+              <div class="caption-title">Luxury Real Estate Company</div>
+              <p>websites</p>
+           </div>
+           <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="luxury-real-estate-company" data-bs-live-demo="https://realtor-landing-page-css-grid.netlify.app/" data-bs-github="https://github.com/AyoCodess/CSS-Grid-Landing-Page">
+           <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
+           More Info
+           </button>
+           </a>
         </div>
-
-        
-         <div class="col-lg-4 col-md-6 components all p-item">
-           <div class="portfolio-box shadow with-linear-gradient">
-             <img src="images/portfolio/portfolio-1.png" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
-             <div class="portfolio-info">
-               <div class="caption">
-                 <div class="caption-title">SASS Basic Hero Section -  Landing Page</div>
-                 <p>Components</p>
-               </div>
-            
-                 <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="sass-basic-hero-section" data-bs-live-demo="https://sass-landing-page-ayocodess.netlify.app/" data-bs-github="https://github.com/AyoCodess/Sass-Landing-Page">
-                   <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
-                    More Info
-                                   </button>
-                 </a>
-               
-             </div>
+     </div>
+  </div>
+  <div class="col-lg-4 col-md-6 components all p-item">
+    
+    <div class="loader" id="loader">
+      <img src="/images/loader/loader.svg" alt="">
+    </div>
+     <div class="portfolio-box shadow with-linear-gradient">
+        <img src="images/portfolio/portfolio-1.png" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid ">
+        <div class="portfolio-info">
+           <div class="caption">
+              <div class="caption-title">SASS Hero Section -  Landing Page</div>
+              <p>Components</p>
            </div>
-         </div>
-
-         
-         <div class="col-lg-4 col-md-6 websites all p-item">
-           <div class="portfolio-box shadow with-linear-gradient">
-             <img src="images/portfolio/portfolio-3.png" alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid">
-             <div class="portfolio-info">
-               <div class="caption">
-                 <div class="caption-title">Travel company landing page</div>
-                 <p>websites</p>
-               </div>
-               <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="travel-company-landing-page" data-bs-live-demo="https://ayo-booking-app.netlify.app/" data-bs-github="https://github.com/AyoCodess/trillo-landing-page">
-                 <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button"  > <span><i class="fas fa-arrow-right"></i></span>
-                  More Info
-                               </button>
-               </a>
-             </div>
+           <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="sass-basic-hero-section" data-bs-live-demo="https://sass-landing-page-ayocodess.netlify.app/" data-bs-github="https://github.com/AyoCodess/Sass-Landing-Page">
+           <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
+           More Info
+           </button>
+           </a>
+        </div>
+     </div>
+  </div>
+  <div class="col-lg-4 col-md-6 websites all p-item">
+    
+    <div class="loader" id="loader">
+      <img src="/images/loader/loader.svg" alt="">
+    </div>
+     <div class="portfolio-box shadow with-linear-gradient">
+        <img src="images/portfolio/portfolio-3.png" alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid ">
+        <div class="portfolio-info">
+           <div class="caption">
+              <div class="caption-title">Travel company landing page</div>
+              <p>websites</p>
            </div>
-         </div>
-         <div class="col-lg-4 col-md-6 websites all p-item">
-           <div class="portfolio-box shadow with-linear-gradient">
-             <img src="images/portfolio/portfolio-4.png" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
-             <div class="portfolio-info">
-               <div class="caption">
-                 <div class="caption-title">microsoft 2021 - landing page</div>
-                 <p>websites</p>
-               </div>
-               <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="microsoft-2021" data-bs-live-demo="https://microsoft-2021-website-ayocodess.netlify.app/" data-bs-github="https://github.com/AyoCodess/Microsoft-Website-2021">
-                 <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
-                  More Info
-                               </button>
-               </a>
-             </div>
+           <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="travel-company-landing-page" data-bs-live-demo="https://ayo-booking-app.netlify.app/" data-bs-github="https://github.com/AyoCodess/trillo-landing-page">
+           <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button">   <span><i class="fas fa-arrow-right"></i></span>More Info
+           </button>
+           </a>
+        </div>
+     </div>
+  </div>
+  <div class="col-lg-4 col-md-6 websites all p-item">
+    
+    <div class="loader l-img" id="loader">
+      <img src="/images/loader/loader.svg" alt="">
+    </div>
+     <div class="portfolio-box shadow with-linear-gradient">
+        <img src="images/portfolio/portfolio-4.png" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid ">
+        <div class="portfolio-info">
+           <div class="caption">
+              <div class="caption-title">microsoft 2021 - landing page</div>
+              <p>websites</p>
            </div>
-         </div>
-         <div class="col-lg-4 col-md-6 websites all p-item">
-           <div class="portfolio-box shadow with-linear-gradient">
-             <img src="images/portfolio/portfolio-5.png" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
-             <div class="portfolio-info">
-               <div class="caption">
-                 <div class="caption-title">netflix crimson 2021 landing page</div>
-                 <p>websites</p>
-               </div>
-               <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="netflix-crimson" data-bs-live-demo="https://crimson-neflix-landpage.netlify.app/" data-bs-github="https://github.com/AyoCodess/Crimson-Netflix-Landing-Page">
-                 <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
-                  More Info
-                               </button>
-               </a>
-             </div>
+           <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="microsoft-2021" data-bs-live-demo="https://microsoft-2021-website-ayocodess.netlify.app/" data-bs-github="https://github.com/AyoCodess/Microsoft-Website-2021">
+           <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button"> <span><i class="fas fa-arrow-right"></i></span>
+           More Info
+           </button>
+           </a>
+        </div>
+     </div>
+  </div>
+  <div class="col-lg-4 col-md-6 websites all p-item">
+   
+    <div class="loader l-img" id="loader">
+      <img src="/images/loader/loader.svg" alt="">
+    </div>
+     <div class="portfolio-box shadow with-linear-gradient">
+        <img src="images/portfolio/portfolio-5.png" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid ">
+        <div class="portfolio-info">
+           <div class="caption">
+              <div class="caption-title">netflix crimson 2021 landing page</div>
+              <p>websites</p>
            </div>
-         </div>
-         <div class="col-lg-4 col-md-6 websites all p-item">
-           <div class="portfolio-box shadow with-linear-gradient">
-             <img src="images/portfolio/portfolio-6.png" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
-             <div class="portfolio-info">
-               <div class="caption">
-                 <div class="caption-title">my portfolio website</div>
-                 <p>websites</p>
-               </div>
-               <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="my-portfolio-website" data-bs-live-demo="https://www.ayoadesanya.com" data-bs-github="https://github.com/AyoCodess/Portfolio-Website">
-                 <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
-                  More Info
-                               </button>
-               </a>
-             </div>
+           <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="netflix-crimson" data-bs-live-demo="https://crimson-neflix-landpage.netlify.app/" data-bs-github="https://github.com/AyoCodess/Crimson-Netflix-Landing-Page">
+           <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
+           More Info
+           </button>
+           </a>
+        </div>
+     </div>
+  </div>
+  <div class="col-lg-4 col-md-6 websites all p-item">
+    
+    <div class="loader" id="loader">
+      <img src="/images/loader/loader.svg" alt="">
+    </div>
+     <div class="portfolio-box shadow with-linear-gradient">
+        <img src="images/portfolio/portfolio-6.png" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid ">
+        <div class="portfolio-info">
+           <div class="caption">
+              <div class="caption-title">my portfolio website</div>
+              <p>websites</p>
            </div>
-         </div>
-         <div class="col-lg-4 col-md-6 components all p-item">
-           <div class="portfolio-box shadow with-linear-gradient">
-             <img src="images/portfolio/portfolio-7.png" alt="portfolio 7 image" title="portfolio 7 picture" class="img-fluid">
-             <div class="portfolio-info">
-               <div class="caption">
-                 <div class="caption-title">Minimalist form</div>
-                 <p>components</p>
-               </div>
-               <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="minimalist-from" data-bs-live-demo="https://modern-blue-form.netlify.app/" data-bs-github="https://github.com/AyoCodess/Modern-Blue-Form-Theme">
-                 <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
-                  More Info
-                               </button>
-               </a>
-             </div>
+           <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="my-portfolio-website" data-bs-live-demo="https://www.ayoadesanya.com" data-bs-github="https://github.com/AyoCodess/Portfolio-Website">
+           <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
+           More Info
+           </button>
+           </a>
+        </div>
+     </div>
+  </div>
+  <div class="col-lg-4 col-md-6 components all p-item">
+    
+    <div class="loader" id="loader">
+      <img src="/images/loader/loader.svg" alt="">
+    </div>
+     <div class="portfolio-box shadow with-linear-gradient">
+        <img src="images/portfolio/portfolio-7.png" alt="portfolio 7 image" title="portfolio 7 picture" class="img-fluid ">
+        <div class="portfolio-info">
+           <div class="caption">
+              <div class="caption-title">Minimalist form</div>
+              <p>components</p>
            </div>
-         </div>
-         <div class="col-lg-4 col-md-6 apps all p-item">
-           <div class="portfolio-box shadow with-linear-gradient">
-             <img src="images/portfolio/portfolio-8.png" alt="portfolio 8 image" title="portfolio 8 picture" class="img-fluid">
-             <div class="portfolio-info">
-               <div class="caption">
-                 <div class="caption-title">Background Gradient Generator</div>
-                 <p>apps</p>
-               </div>
-               <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="background-gradient-generator" data-bs-live-demo="https://bgchanger-ayo.netlify.app/" data-bs-github="https://github.com/AyoCodess/background-changer-app">
-                 <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
-                  More Info
-                               </button>
-               </a>
-             </div>
+           <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="minimalist-from" data-bs-live-demo="https://modern-blue-form.netlify.app/" data-bs-github="https://github.com/AyoCodess/Modern-Blue-Form-Theme">
+           <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
+           More Info
+           </button>
+           </a>
+        </div>
+     </div>
+  </div>
+  <div class="col-lg-4 col-md-6 apps all p-item">
+    
+    <div class="loader" id="loader">
+      <img src="/images/loader/loader.svg" alt="">
+    </div>
+     <div class="portfolio-box shadow with-linear-gradient">
+        <img src="images/portfolio/portfolio-8.png" alt="portfolio 8 image" title="portfolio 8 picture" class="img-fluid ">
+        <div class="portfolio-info">
+           <div class="caption">
+              <div class="caption-title">Background Gradient Generator</div>
+              <p>apps</p>
            </div>
-         </div>
-         <div class="col-lg-4 col-md-6 apps all p-item">
-           <div class="portfolio-box shadow with-linear-gradient">
-             <img src="images/portfolio/portfolio-9.png" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid">
-             <div class="portfolio-info">
-               <div class="caption">
-                 <div class="caption-title">basic shopping list app</div>
-                 <p>apps</p>
-               </div>
-               <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="basic-shopping-list-app" data-bs-live-demo="https://the-simple-todo-app.netlify.app/" data-bs-github="https://github.com/AyoCodess/The-Simple-todo-App">
-                 <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
-                  More Info
-                               </button>
-               </a>
-             </div>
+           <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="background-gradient-generator" data-bs-live-demo="https://bgchanger-ayo.netlify.app/" data-bs-github="https://github.com/AyoCodess/background-changer-app">
+           <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
+           More Info
+           </button>
+           </a>
+        </div>
+     </div>
+  </div>
+  <div class="col-lg-4 col-md-6 apps all p-item">
+    
+    <div class="loader" id="loader">
+      <img src="/images/loader/loader.svg" alt="">
+    </div>
+     <div class="portfolio-box shadow with-linear-gradient">
+        <img src="images/portfolio/portfolio-9.png" alt="portfolio 9 image" title="portfolio 9 picture" class="img-fluid ">
+        <div class="portfolio-info">
+           <div class="caption">
+              <div class="caption-title">basic shopping list app</div>
+              <p>apps</p>
            </div>
-         </div>
-       </div>
-      </div>
-   </section>
+           <a href="" data-bs-toggle="modal" data-bs-target="#modal" id="basic-shopping-list-app" data-bs-live-demo="https://the-simple-todo-app.netlify.app/" data-bs-github="https://github.com/AyoCodess/The-Simple-todo-App">
+           <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
+           More Info
+           </button>
+           </a>
+        </div>
+     </div>
+  </div>
+</div>
+</div>
+</section>
 
      <!-- ? BACKGROUND ROUNDED BOTTOM AREA -->
   <div class="background-bottom--inverse mt-5"></div>
@@ -935,7 +988,10 @@
   </div>
 </div>
 
-  
+
+
+
+
 <script src="/other-js/modal.js"></script>
 <script src="/other-js/portfolio.js"></script>
 <script src="/assets/js/bootstrap.bundle.js"></script>

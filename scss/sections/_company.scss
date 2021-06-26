@@ -24,3 +24,21 @@
     }
   }
 }
+
+.carousel-inner {
+  img {
+    width: 10rem;
+    height: auto;
+
+    &:hover {
+      filter: grayscale(120);
+    }
+  }
+}
+
+#company-slide {
+  text-align: center;
+  width: 40%;
+  height: 6rem;
+  margin: 0 auto;
+}
