@@ -60,33 +60,42 @@
       text-align: center;
       color: white;
 
-      h4 {
+      .caption-title {
         text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+
+        @media (max-width: 1199px) {
+          font-size: 1rem;
+        }
       }
 
       p {
         text-transform: capitalize;
+        font-size: 1rem;
+        margin-top: 1rem;
       }
-    }
-
-    .portfolio-button {
-      position: absolute;
-      top: 80%;
-      left: 50%;
-      transform: translate(-50%, -50%);
     }
   }
 
-  &:hover {
-    img {
-      transform: scale(1.5);
-      @include transition-property;
-    }
-    .portfolio-info {
-      opacity: 1;
-      visibility: visible;
-      @include transition-property;
-    }
+  .portfolio-button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.portfolio-box:hover {
+  img {
+    transform: scale(1.5);
+    @include transition-property;
+  }
+  .portfolio-info {
+    opacity: 1;
+    visibility: visible;
+    @include transition-property;
   }
 }
 
@@ -125,6 +134,7 @@
     width: 100%;
   }
 }
+
 .filter-buttons {
   display: flex;
   justify-content: space-evenly;

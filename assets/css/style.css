@@ -11487,18 +11487,29 @@ body {
   text-align: center;
   color: white;
 }
-.portfolio-box .portfolio-info .caption h4 {
+.portfolio-box .portfolio-info .caption .caption-title {
   text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+@media (max-width: 1199px) {
+  .portfolio-box .portfolio-info .caption .caption-title {
+    font-size: 1rem;
+  }
 }
 .portfolio-box .portfolio-info .caption p {
   text-transform: capitalize;
+  font-size: 1rem;
+  margin-top: 1rem;
 }
-.portfolio-box .portfolio-info .portfolio-button {
+.portfolio-box .portfolio-button {
   position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .portfolio-box:hover img {
   transform: scale(1.5);
   transition-duration: 1s;
