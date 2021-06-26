@@ -1,2 +1,6 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
+
+.modal-banner {
+  margin-bottom: 0rem;
+}

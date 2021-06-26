@@ -12,8 +12,6 @@ const loader = document.querySelectorAll(`.loader`);
 //?  image loader screen
 window.addEventListener("load", function () {
   loader.forEach((item) => {
-    console.log(item);
-
     item.classList.add("hide");
   });
 });
