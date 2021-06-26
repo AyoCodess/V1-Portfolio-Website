@@ -37,9 +37,10 @@ modal.addEventListener("show.bs.modal", function (event) {
 
   for (const [key, value] of Object.entries(projectContent)) {
     if (currentProjectSelected === key) {
+      //? setting title
+      modalProjectTechnologies.innerHTML = value.technology;
       //? setting description
-      let description = value.description;
-      modalProjectDescription.textContent = description;
+      modalProjectDescription.textContent = value.description;
     }
   }
 });
@@ -47,18 +48,65 @@ modal.addEventListener("show.bs.modal", function (event) {
 const projectContent = {
   luxuryRealEstateCompany: {
     name: "luxury real estate company",
-    description:
-      "json objects is just like accessing nested arrays. Nested objects are the objects that are inside an another object.",
+    description: "description goes here.",
     technology: "<strong>HTML | CSS GRID ONLY</strong>",
     liveDemo: "https://realtor-landing-page-css-grid.netlify.app/",
     repo: "https://github.com/AyoCodess/CSS-Grid-Landing-Page",
   },
   sassLandingPage: {
     name: "SASS Hero Section Landing Page",
-    description:
-      "In the following example 'vehicles' is a object which is inside a main object called 'person'. Using dot notation",
+    description: "sass description goes here.",
     technology: "<strong>HTML | CSS GRID ONLY</strong>",
     liveDemo: "https://sass-landing-page-ayocodess.netlify.app/",
     repo: "https://github.com/AyoCodess/Sass-Landing-Page",
+  },
+  travelCompanyLandingPage: {
+    name: "travel company landing page.",
+    description: "travel company description ",
+    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    liveDemo: "https://ayo-booking-app.netlify.app/",
+    repo: "https://github.com/AyoCodess/trillo-landing-page",
+  },
+  microsoft2021: {
+    name: "microsoft website 2021",
+    description: "microsoft company description",
+    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    liveDemo: "https://microsoft-2021-website-ayocodess.netlify.app/",
+    repo: "https://github.com/AyoCodess/Microsoft-Website-2021",
+  },
+  netflixCrimson: {
+    name: "netflix crimson 2021",
+    description: "netflix description",
+    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    liveDemo: "https://crimson-neflix-landpage.netlify.app/",
+    repo: "https://github.com/AyoCodess/Crimson-Netflix-Landing-Page",
+  },
+  myPortfolioWebsite: {
+    name: "my portfolio website",
+    description: "this website info",
+    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    liveDemo: "https://www.ayoadesanya.com/",
+    repo: "https://github.com/AyoCodess/Portfolio-Website",
+  },
+  minimalistFrom: {
+    name: "blue modern form",
+    description: "modern form info",
+    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    liveDemo: "https://modern-blue-form.netlify.app/",
+    repo: "https://github.com/AyoCodess/Modern-Blue-Form-Theme",
+  },
+  backgroundGradientGenerator: {
+    name: "background gradient generator",
+    description: "background gen info",
+    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    liveDemo: "https://bgchanger-ayo.netlify.app/",
+    repo: "https://github.com/AyoCodess/Modern-Blue-Form-Theme",
+  },
+  basicShoppingListApp: {
+    name: "shopping list app",
+    description: "basic todo app",
+    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    liveDemo: "https://the-simple-todo-app.netlify.app/",
+    repo: "https://github.com/AyoCodess/The-Simple-todo-App",
   },
 };
