@@ -41,6 +41,10 @@ modal.addEventListener("show.bs.modal", function (event) {
       modalProjectTechnologies.innerHTML = value.technology;
       //? setting description
       modalProjectDescription.textContent = value.description;
+      //? setting live demo link
+      modelButtonLiveDemo.href = value.liveDemo;
+      //? setting git repo link
+      modelButtonGithub.href = value.repo;
     }
   }
 });
@@ -100,7 +104,7 @@ const projectContent = {
     description: "background gen info",
     technology: "<strong>HTML | CSS GRID ONLY</strong>",
     liveDemo: "https://bgchanger-ayo.netlify.app/",
-    repo: "https://github.com/AyoCodess/Modern-Blue-Form-Theme",
+    repo: "https://github.com/AyoCodess/background-changer-app",
   },
   basicShoppingListApp: {
     name: "shopping list app",
