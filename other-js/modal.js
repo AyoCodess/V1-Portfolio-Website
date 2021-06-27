@@ -25,11 +25,17 @@ modal.addEventListener("show.bs.modal", function (event) {
       modelButtonLiveDemo.href = value.liveDemo;
       //? setting git repo link
       modelButtonGithub.href = value.repo;
-
-      value.name;
     }
   }
 });
+
+// Rather than looping, since you know the object and the key you can access directly so long as that key exists…
+// let selectedData = projectContent[currentProjectSelected];
+// modalProjectTechnologies.innerHTML = selectedData.technology;
+
+// let selectedData = projectContent[currentProjectSelected];
+// modalProjectTechnologies.innerHTML = selectedData.technology;
+// //…
 
 const projectContent = {
   luxuryRealEstateCompany: {
