@@ -46,9 +46,10 @@ const projectContent = {
     repo: "https://github.com/AyoCodess/CSS-Grid-Landing-Page",
   },
   sassLandingPage: {
-    name: "SASS Hero -  Section Landing Page",
-    description: "sass description goes here.",
-    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    name: "SASS Website - Ultra Light/Dark Mode 2021",
+    description:
+      "I've totally re-envisioned the SASS landing page with a dark and light theme implementation. This was built from scratch.",
+    technology: "<strong>HTML | SASS | JavaScript</strong>",
     liveDemo: "https://sass-landing-page-ayocodess.netlify.app/",
     repo: "https://github.com/AyoCodess/Sass-Landing-Page",
   },

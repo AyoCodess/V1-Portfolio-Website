@@ -11044,6 +11044,10 @@ body {
     margin-bottom: 3rem;
   }
 }
+.about-me p span {
+  font-weight: bold;
+  font-style: italic;
+}
 
 .about-me-text {
   display: flex;

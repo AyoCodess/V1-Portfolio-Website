@@ -21,6 +21,14 @@
     margin-top: 0rem;
     margin-bottom: 3rem;
   }
+
+  p {
+    span {
+      // color: $text-gradient;
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
 }
 
 .about-me-text {
