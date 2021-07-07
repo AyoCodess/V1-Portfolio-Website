@@ -40,14 +40,16 @@ modal.addEventListener("show.bs.modal", function (event) {
 const projectContent = {
   microsoft2021: {
     name: "Microsoft Website 2021",
-    description: "microsoft company description",
-    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    description:
+      "I had good time building the desktop and mobile versions, emulating the original website as best I could with a few new additions.",
+    technology: "<strong>HTML | CSS | JS</strong>",
     liveDemo: "https://microsoft-2021-website-ayocodess.netlify.app/",
     repo: "https://github.com/AyoCodess/Microsoft-Website-2021",
   },
   luxuryRealEstateCompany: {
     name: "Luxury Real Estate Company",
-    description: "description goes here.",
+    description:
+      "One of my early projects. I wanted to give off a luxury feel... did I succeed? ",
     technology: "<strong>HTML | CSS GRID ONLY</strong>",
     liveDemo: "https://realtor-landing-page-css-grid.netlify.app/",
     repo: "https://github.com/AyoCodess/CSS-Grid-Landing-Page",
@@ -56,58 +58,61 @@ const projectContent = {
     name: "Isit A Good Investment?",
     description:
       "Learn how to invest in crypto safely and join a private syndicate of investors - Landing page",
-    technology: "<strong>HTML | SASS | JavaScript | AOS Library </strong>",
+    technology: "<strong>HTML | SASS | JS | AOS Library </strong>",
     liveDemo: "https://isitagoodinvestment.netlify.app/",
     repo: "https://github.com/AyoCodess/IIAGI-Website",
   },
   sassLandingPage: {
     name: "SASS Website - Ultra Light/Dark Mode 2021",
     description:
-      "I've totally re-envisioned the SASS landing page with a dark and light theme implementation. This was built from scratch.",
-    technology: "<strong>HTML | SASS | JavaScript</strong>",
+      "Re-envisioned the SASS landing page with a dark and light theme implementation.",
+    technology: "<strong>HTML | SASS | JS</strong>",
     liveDemo: "https://sass-landing-page-ayocodess.netlify.app/",
     repo: "https://github.com/AyoCodess/Sass-Landing-Page",
   },
   travelCompanyLandingPage: {
     name: "Travel Company Landing Page",
-    description: "travel company description ",
-    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    description: "Simple brochure style page for a travel company ",
+    technology: "<strong>HTML | CSS </strong>",
     liveDemo: "https://ayo-booking-app.netlify.app/",
     repo: "https://github.com/AyoCodess/trillo-landing-page",
   },
 
   netflixCrimson: {
     name: "Netflix Crimson 2021",
-    description: "netflix description",
-    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    description:
+      "Completely re-built from the ground up with a nice customized Bootstrap V.5 FAQ component  ",
+    technology: "<strong>HTML | CSS | JS | Bootstrap V.5</strong>",
     liveDemo: "https://crimson-neflix-landpage.netlify.app/",
     repo: "https://github.com/AyoCodess/Crimson-Netflix-Landing-Page",
   },
   myPortfolioWebsite: {
     name: "This Website!",
-    description: "this website info",
-    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    description:
+      "This website was built from ground up and is continually being developed. This was also my first attempt and learning and implementing bootstrap for the very first time. ",
+    technology: "<strong>HTML | SASS | JS | Bootstrap V.5 </strong>",
     liveDemo: "https://www.ayoadesanya.com/",
     repo: "https://github.com/AyoCodess/Portfolio-Website",
   },
   minimalistFrom: {
     name: "The Modern Blue Form",
-    description: "modern form info",
-    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    description: "A simple, yet modern form",
+    technology: "<strong>HTML | CSS </strong>",
     liveDemo: "https://modern-blue-form.netlify.app/",
     repo: "https://github.com/AyoCodess/Modern-Blue-Form-Theme",
   },
   backgroundGradientGenerator: {
     name: "Background Gradient Generator",
-    description: "background gen info",
+    description:
+      "Generate any linear gradient background you want from any two colors you want",
     technology: "<strong>HTML | CSS GRID ONLY</strong>",
     liveDemo: "https://bgchanger-ayo.netlify.app/",
     repo: "https://github.com/AyoCodess/background-changer-app",
   },
   basicShoppingListApp: {
     name: "Shopping List App",
-    description: "basic todo app",
-    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    description: "A simple shopping list app",
+    technology: "<strong>HTML | CSS </strong>",
     liveDemo: "https://the-simple-todo-app.netlify.app/",
     repo: "https://github.com/AyoCodess/The-Simple-todo-App",
   },
