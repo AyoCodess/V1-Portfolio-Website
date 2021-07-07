@@ -38,12 +38,27 @@ modal.addEventListener("show.bs.modal", function (event) {
 // //…
 
 const projectContent = {
+  microsoft2021: {
+    name: "Microsoft Website 2021",
+    description: "microsoft company description",
+    technology: "<strong>HTML | CSS GRID ONLY</strong>",
+    liveDemo: "https://microsoft-2021-website-ayocodess.netlify.app/",
+    repo: "https://github.com/AyoCodess/Microsoft-Website-2021",
+  },
   luxuryRealEstateCompany: {
     name: "Luxury Real Estate Company",
     description: "description goes here.",
     technology: "<strong>HTML | CSS GRID ONLY</strong>",
     liveDemo: "https://realtor-landing-page-css-grid.netlify.app/",
     repo: "https://github.com/AyoCodess/CSS-Grid-Landing-Page",
+  },
+  IsitAGoodInvestment: {
+    name: "Isit A Good Investment?",
+    description:
+      "Learn how to invest in crypto safely and join a private syndicate of investors - Landing page",
+    technology: "<strong>HTML | SASS | JavaScript | AOS Library </strong>",
+    liveDemo: "https://isitagoodinvestment.netlify.app/",
+    repo: "https://github.com/AyoCodess/IIAGI-Website",
   },
   sassLandingPage: {
     name: "SASS Website - Ultra Light/Dark Mode 2021",
@@ -60,13 +75,7 @@ const projectContent = {
     liveDemo: "https://ayo-booking-app.netlify.app/",
     repo: "https://github.com/AyoCodess/trillo-landing-page",
   },
-  microsoft2021: {
-    name: "Microsoft Website 2021",
-    description: "microsoft company description",
-    technology: "<strong>HTML | CSS GRID ONLY</strong>",
-    liveDemo: "https://microsoft-2021-website-ayocodess.netlify.app/",
-    repo: "https://github.com/AyoCodess/Microsoft-Website-2021",
-  },
+
   netflixCrimson: {
     name: "Netflix Crimson 2021",
     description: "netflix description",
