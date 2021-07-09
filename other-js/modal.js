@@ -65,7 +65,7 @@ const projectContent = {
   sassLandingPage: {
     name: "SASS Website - Ultra Light/Dark Mode 2021",
     description:
-      "Re-envisioned the SASS landing page with a dark and light theme implementation.",
+      "Re-envisioned the SASS landing page with a dark and light theme implementation. Local storage automatically saves your choice of theme.",
     technology: "<strong>HTML | SASS | JS</strong>",
     liveDemo: "https://sass-landing-page-ayocodess.netlify.app/",
     repo: "https://github.com/AyoCodess/Sass-Landing-Page",
