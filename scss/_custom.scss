@@ -65,5 +65,9 @@ $carousel-dark-caption-color: $black !default;
 $carousel-dark-control-icon-filter: invert(1) grayscale(100) !default;
 // scss-docs-end carousel-variables
 
+.hide {
+  display: none !important;
+}
+
 //! IMPORT BOOTSTRAP
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
