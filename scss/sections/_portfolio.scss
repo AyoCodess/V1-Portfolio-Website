@@ -2,8 +2,59 @@
 @use "../components/mixins" as *;
 
 .portfolio {
+  margin: 0 auto;
+  position: relative;
+
   button {
     text-transform: capitalize;
+  }
+
+  .portfolio-container {
+    padding: 2rem 1rem;
+
+    border: 2px solid #302b63;
+    border-radius: 1rem;
+
+    max-height: 1400px;
+
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #e4e4e4;
+      border-radius: 1rem;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: linear-gradient(to right, #0f0c29, #302b63);
+      border-radius: 100px;
+    }
+
+    @media (max-width: 570px) {
+      margin: 0 2.5rem 0 0;
+    }
+  }
+}
+
+.scroll-text {
+  display: none;
+
+  @media (max-width: 569px) {
+    display: block;
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+
+    font-weight: 700;
+    color: #302b63;
+
+    top: 19%;
+    bottom: 50%;
+    left: 91.5%;
+    right: 3.5%;
   }
 }
 
@@ -84,6 +135,10 @@
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    @media (max-width: 425px) {
+      width: 10.5rem;
+    }
   }
 }
 

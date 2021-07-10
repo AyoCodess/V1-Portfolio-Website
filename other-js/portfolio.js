@@ -4,6 +4,7 @@ const websites = document.querySelector("#websites");
 const apps = document.querySelector("#apps");
 const components = document.querySelector("#components");
 const hideAll = document.querySelector("#hide");
+const portfolioContainer = document.querySelector(`.portfolio-container`);
 
 const allItems = document.querySelectorAll(".p-item");
 
@@ -22,8 +23,10 @@ const displayItems = function (e) {
     allItems.forEach((item) => {
       if (!item.classList.contains(e.target.id)) {
         item.classList.add(`hide`);
+        portfolioContainer.hidden = false;
       } else {
         item.classList.remove(`hide`);
+        portfolioContainer.hidden = false;
       }
     });
 
@@ -31,6 +34,7 @@ const displayItems = function (e) {
     console.log(e.target.id);
     allItems.forEach((item) => {
       item.classList.add("hide");
+      portfolioContainer.hidden = true;
     });
   }
 };
