@@ -3,7 +3,7 @@
 
 .portfolio {
   margin: 0 auto;
-  position: relative;
+  display: flex;
 
   button {
     text-transform: capitalize;
@@ -43,18 +43,22 @@
   display: none;
 
   @media (max-width: 569px) {
-    display: block;
-    position: absolute;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 1rem;
+    // position: absolute;
+    // writing-mode: vertical-rl;
+    // text-orientation: upright;
 
     font-weight: 700;
     color: #302b63;
 
-    top: 19%;
-    bottom: 50%;
-    left: 91.5%;
-    right: 3.5%;
+    // top: 19%;
+    // bottom: 50%;
+    // left: 91.5%;
+    // right: 3.5%;
   }
 }
 
@@ -196,7 +200,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 
   .frame {
     margin: 0.5rem 0rem;
