@@ -80,7 +80,7 @@
 .portfolio-box {
   position: relative;
   width: 100%;
-  max-height: 18.5rem;
+  height: 18.5rem;
   overflow: hidden;
   margin-bottom: 1.2rem;
 
@@ -89,7 +89,8 @@
   border-color: #302b63;
 
   img {
-    width: 100%;
+    object-fit: cover;
+
     // height: 100%;
   }
 
