@@ -88,10 +88,15 @@
   border-width: 0.5rem;
   border-color: #302b63;
 
-  img {
-    object-fit: cover;
+  @media (max-width: 411px) {
+    height: 14rem;
+  }
 
-    // height: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 
   .portfolio-info {

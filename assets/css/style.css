@@ -11231,8 +11231,16 @@ body {
   border-width: 0.5rem;
   border-color: #302b63;
 }
+@media (max-width: 411px) {
+  .portfolio-box {
+    height: 14rem;
+  }
+}
 .portfolio-box img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 .portfolio-box .portfolio-info {
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
