@@ -26,25 +26,35 @@ const displayItems = function (e) {
       if (!item.classList.contains(e.target.id)) {
         item.classList.add(`hide`);
         portfolioContainer.hidden = false;
+        if (mediaQuery.matches && !scrollText.classList.contains(`hide`)) {
+          scrollText.classList.remove("hide");
+        }
       } else {
         item.classList.remove(`hide`);
         portfolioContainer.hidden = false;
+
+        if (mediaQuery.matches && scrollText.classList.contains(`hide`)) {
+          scrollText.classList.remove("hide");
+        }
       }
     });
 
-  //? Scroll text hide
-  if (mediaQuery.matches && !scrollText.classList.contains(`hide`)) {
-    scrollText.classList.add("hide");
-  } else {
-    if (mediaQuery.matches && scrollText.classList.contains(`hide`)) {
-      scrollText.classList.remove("hide");
-    }
-  }
+  // //? Scroll text hide
+  // if (mediaQuery.matches && !scrollText.classList.contains(`hide`)) {
+  //   scrollText.classList.add("hide");
+  // } else {
+  //   if (mediaQuery.matches && scrollText.classList.contains(`hide`)) {
+  //     scrollText.classList.remove("hide");
+  //   }
+  // }
 
   if (e.target.id === "hide") {
     allItems.forEach((item) => {
       item.classList.add("hide");
       portfolioContainer.hidden = true;
+      if (mediaQuery.matches && !scrollText.classList.contains(`hide`)) {
+        scrollText.classList.add("hide");
+      }
     });
   }
 };
