@@ -11385,6 +11385,11 @@ body {
   font-weight: bold;
   color: #302b63;
 }
+@media (max-width: 991px) {
+  .contact-box__subtitle {
+    text-align: left;
+  }
+}
 .contact-box__flex {
   display: flex;
   justify-content: center;
@@ -11460,6 +11465,39 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.blog-link {
+  text-decoration: none;
+}
+
+.blog-box {
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .blog-box {
+    margin: 0 0;
+  }
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+.svg-icon {
+  width: 2.5rem;
+  height: 3rem;
+  margin-left: 0.1rem;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
 }
 
 .project-showcase-main-heading {

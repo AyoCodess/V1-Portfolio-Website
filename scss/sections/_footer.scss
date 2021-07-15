@@ -31,6 +31,10 @@
     text-transform: capitalize;
     font-weight: bold;
     color: $primary;
+
+    @media (max-width: 991px) {
+      text-align: left;
+    }
   }
 
   &__flex {
@@ -119,4 +123,37 @@
     flex-wrap: wrap;
     align-items: center;
   }
+}
+
+.blog-link {
+  text-decoration: none;
+}
+
+.blog-box {
+  margin: 0 auto;
+
+  @media (max-width: 991px) {
+    margin: 0 0;
+  }
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 2.5rem;
+  height: 3rem;
+  margin-left: 0.1rem;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
 }
