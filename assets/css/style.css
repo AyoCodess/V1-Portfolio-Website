@@ -11178,29 +11178,10 @@ body {
   text-transform: capitalize;
 }
 .portfolio .portfolio-container {
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   border: 2px solid #302b63;
   border-radius: 1rem;
-  max-height: 1400px;
-  overflow-y: auto;
 }
-.portfolio .portfolio-container::-webkit-scrollbar {
-  width: 1rem;
-}
-.portfolio .portfolio-container::-webkit-scrollbar-track {
-  background-color: #e4e4e4;
-  border-radius: 1rem;
-}
-.portfolio .portfolio-container::-webkit-scrollbar-thumb {
-  background: linear-gradient(to right, #0f0c29, #302b63);
-  border-radius: 100px;
-}
-@media (max-width: 570px) {
-  .portfolio .portfolio-container {
-    margin: 0 2.5rem 0 0;
-  }
-}
-
 .scroll-text {
   display: none;
 }
