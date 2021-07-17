@@ -11154,13 +11154,14 @@ body {
   text-align: center;
   font-weight: 500;
 }
-.testimonials__name h3 {
-  color: white;
-  text-transform: capitalize;
-}
 .testimonials__name p {
   color: white;
   text-transform: capitalize;
+}
+.testimonials__name .t-name {
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.2rem;
 }
 
 .faq-main-heading {

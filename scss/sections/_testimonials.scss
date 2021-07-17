@@ -79,14 +79,16 @@
     margin-bottom: 1rem;
     text-align: center;
     font-weight: 500;
-    h3 {
-      color: white;
-      text-transform: capitalize;
-    }
 
     p {
       color: white;
       text-transform: capitalize;
+    }
+
+    .t-name {
+      color: white;
+      text-transform: capitalize;
+      font-size: 1.2rem;
     }
   }
 }
