@@ -10956,6 +10956,19 @@ body {
   box-shadow: none;
 }
 
+.intro-container {
+  padding-bottom: 2rem;
+}
+.intro-container .hand {
+  margin-top: 2rem;
+  margin-right: 0.2rem;
+}
+@media (max-width: 766px) {
+  .intro-container {
+    padding-bottom: 4rem;
+  }
+}
+
 .intro-section {
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
   padding: 10rem 0 0 0;
@@ -10964,7 +10977,7 @@ body {
 }
 @media (max-width: 575.98px) {
   .intro-section {
-    padding: 9rem 0 0 0;
+    padding: 9rem 0 0rem 0;
   }
 }
 
@@ -10973,12 +10986,12 @@ body {
 }
 .intros .video-box a {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .intros .video-box a span i {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #fff;
 }
 
@@ -10992,10 +11005,10 @@ body {
 
 .border-animation {
   position: absolute;
-  top: -20%;
-  right: -55%;
-  width: 7.5rem;
-  height: 7.5rem;
+  top: 20%;
+  right: -50%;
+  width: 6.5rem;
+  height: 6.5rem;
   border: 0.55rem solid #fff;
   border-radius: 50%;
   animation: pulse-border 1.5s linear infinite;
@@ -11146,6 +11159,8 @@ body {
   transform: translate(-50%, -50%);
 }
 .testimonials__picture img {
+  width: 100%;
+  height: auto;
   border: 0.325rem solid rgba(36, 36, 62, 0.7);
 }
 .testimonials__name {
@@ -11275,6 +11290,8 @@ body {
   transform: scale(1.5);
   transition-duration: 1s;
   transition-property: all;
+  width: 100%;
+  height: auto;
 }
 .portfolio-box:hover .portfolio-info {
   opacity: 1;
@@ -11524,6 +11541,10 @@ SVG Icons - svgicons.sparkk.fr
     margin-top: 1rem;
   }
 }
+.project-showcase__content img {
+  width: 100%;
+  height: auto;
+}
 @media (max-width: 991.98px) {
   .project-showcase__content img {
     margin-bottom: 5rem;
@@ -11536,6 +11557,8 @@ SVG Icons - svgicons.sparkk.fr
 @media (max-width: 991.98px) {
   .project-showcase img:last-child {
     margin-bottom: 0rem;
+    width: 100%;
+    height: auto;
   }
 }
 

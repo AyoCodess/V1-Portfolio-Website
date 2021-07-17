@@ -70,6 +70,8 @@
     transform: translate(-50%, -50%);
 
     img {
+      width: 100%;
+      height: auto;
       border: 0.325rem solid rgba($secondary, 0.7);
     }
   }

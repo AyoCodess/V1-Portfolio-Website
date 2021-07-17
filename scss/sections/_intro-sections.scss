@@ -1,6 +1,19 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
+.intro-container {
+  padding-bottom: 2rem;
+
+  .hand {
+    margin-top: 2rem;
+    margin-right: 0.2rem;
+  }
+
+  @media (max-width: 766px) {
+    padding-bottom: 4rem;
+  }
+}
+
 .intro-section {
   @include gradient;
   padding: 10rem 0 0 0;
@@ -8,7 +21,7 @@
   height: 100%;
 
   @include media-breakpoint-down(sm) {
-    padding: 9rem 0 0 0;
+    padding: 9rem 0 0rem 0;
   }
 }
 
@@ -17,11 +30,14 @@
     position: relative;
 
     a {
-      @include absoluteCenter;
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
 
       span {
         i {
-          font-size: 5rem;
+          font-size: 4rem;
           color: $white;
         }
       }
@@ -40,10 +56,10 @@
 
 .border-animation {
   position: absolute;
-  top: -20%;
-  right: -55%;
-  width: 7.5rem;
-  height: 7.5rem;
+  top: 20%;
+  right: -50%;
+  width: 6.5rem;
+  height: 6.5rem;
   border: 0.55rem solid $white;
   border-radius: 50%;
 

@@ -29,6 +29,8 @@
     }
 
     img {
+      width: 100%;
+      height: auto;
       @include media-breakpoint-down(lg) {
         margin-bottom: 5rem;
       }
@@ -44,6 +46,8 @@
   img:last-child {
     @include media-breakpoint-down(lg) {
       margin-bottom: 0rem;
+      width: 100%;
+      height: auto;
     }
   }
 }
