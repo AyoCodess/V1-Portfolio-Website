@@ -17,7 +17,6 @@
     "autoprefixer": "^10.2.6",
     "bootstrap": "^5.0.1",
     "parcel-bundler": "^1.12.5",
-    "postcss-cli": "^8.3.1",
-    "sharp": "^0.28.3"
+    "postcss-cli": "^8.3.1"
   }
 }
