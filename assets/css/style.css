@@ -3,6 +3,10 @@
   display: none !important;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11161,7 +11165,7 @@ body {
 .testimonials__picture img {
   width: 100%;
   height: auto;
-  border: 0.325rem solid rgba(36, 36, 62, 0.7);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .testimonials__name {
   padding-top: 5rem;
@@ -11212,6 +11216,17 @@ body {
   }
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 .portfolio-heading p {
   font-size: 1.3rem;
   font-weight: 500;
@@ -11227,6 +11242,9 @@ body {
   border-top-style: solid;
   border-width: 0.5rem;
   border-color: #302b63;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 1rem;
+  animation: bounce infinite 5s;
 }
 @media (max-width: 411px) {
   .portfolio-box {

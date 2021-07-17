@@ -69,5 +69,9 @@ $carousel-dark-control-icon-filter: invert(1) grayscale(100) !default;
   display: none !important;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 //! IMPORT BOOTSTRAP
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
