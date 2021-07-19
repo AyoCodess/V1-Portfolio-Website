@@ -1,5 +1,6 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
+@use '../components/fontawesome-icons' as *;
 
 .contact-bg {
   @include gradient;

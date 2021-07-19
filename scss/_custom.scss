@@ -65,12 +65,14 @@ $carousel-dark-caption-color: $black !default;
 $carousel-dark-control-icon-filter: invert(1) grayscale(100) !default;
 // scss-docs-end carousel-variables
 
+//? global
+
 .hide {
   display: none !important;
 }
 
 body {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 //! IMPORT BOOTSTRAP
