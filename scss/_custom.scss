@@ -67,6 +67,10 @@ $carousel-dark-control-icon-filter: invert(1) grayscale(100) !default;
 
 //? global
 
+:root {
+  font-size: calc(0.625vmin + 0.875rem);
+}
+
 .hide {
   display: none !important;
 }
