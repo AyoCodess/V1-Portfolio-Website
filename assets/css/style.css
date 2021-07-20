@@ -1,8 +1,4 @@
 @charset "UTF-8";
-:root {
-  font-size: calc(0.625vmin + 0.875rem);
-}
-
 .hide {
   display: none !important;
 }
