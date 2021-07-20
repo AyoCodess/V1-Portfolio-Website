@@ -11724,6 +11724,9 @@ SVG Icons - svgicons.sparkk.fr
 .form-content {
   color: #302b63;
 }
+.form-content label {
+  width: 100%;
+}
 @media (max-width: 636px) {
   .form-content {
     padding: 0rem 2rem;

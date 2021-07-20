@@ -10,6 +10,10 @@
 .form-content {
   color: $primary;
 
+  label {
+    width: 100%;
+  }
+
   @media (max-width: 636px) {
     padding: 0rem 2rem;
   }
