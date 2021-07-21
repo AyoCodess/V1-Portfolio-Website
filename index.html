@@ -675,9 +675,39 @@
           </div>
         </div>
       </div>
+
+
+       <!-- ? THE INPUT FORM -->
+        
+       <div class="p-3 faq-q-form">
+
+        <div class="faq-q-title">Have you got a question?</div>
+    
+        
+          <form name="faq-contact" method="POST" data-netlify="true">
+      
+            <div>
+              <label for="Your email" class="form-label">Email address</label>
+              <input name="email" type="email" class="form-control" id="faq-email-form" placeholder="name@example.com">
+            </div>
+            <div >
+              <label for="Your Message" class="form-label">Your Question
+              <textarea name ="Message" type="text" class="form-control mt-2" id="faq-message-form" rows="1" placeholder="Ask me anything..."></textarea>
+              </label>
+            </div>
+            <div >
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        
+      </div>
      </div>
+
+
    </section>
    <div class="separator mb-5 mt-5"></div>
+
+
 
    <!-- ////////////////////////////////////////////////////////////////////////////////////////
                                     PORTFOLIO GALLERY SECTION                                  
@@ -1221,7 +1251,7 @@
               </div>
               <div class="mb-3">
                 <label for="Your Message" class="form-label">Message
-                <textarea name ="Message" type="text" class="form-control" id="message-form" rows="3"></textarea>
+                <textarea name ="Message" type="text" class="form-control mt-2" id="message-form" rows="3"></textarea>
                 </label>
               </div>
               <div >
