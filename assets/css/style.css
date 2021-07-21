@@ -11342,7 +11342,12 @@ body {
   text-align: center;
 }
 .faq-q-form form input {
-  width: 85vw;
+  width: 20rem;
+}
+@media (min-width: 798px) {
+  .faq-q-form form input {
+    width: 25rem;
+  }
 }
 .faq-q-form form input::placeholder {
   color: #b3afaf;
@@ -11350,7 +11355,12 @@ body {
   /* Firefox */
 }
 .faq-q-form form textarea {
-  width: 85vw;
+  width: 20rem;
+}
+@media (min-width: 798px) {
+  .faq-q-form form textarea {
+    width: 25rem;
+  }
 }
 .faq-q-form form textarea::placeholder {
   color: #b3afaf;

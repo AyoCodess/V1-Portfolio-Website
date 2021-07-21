@@ -33,7 +33,11 @@
     }
 
     input {
-      width: 85vw;
+      width: 20rem;
+
+      @media (min-width: 798px) {
+        width: 25rem;
+      }
 
       &::placeholder {
         color: rgb(179, 175, 175);
@@ -42,7 +46,11 @@
     }
 
     textarea {
-      width: 85vw;
+      width: 20rem;
+
+      @media (min-width: 798px) {
+        width: 25rem;
+      }
 
       &::placeholder {
         color: rgb(179, 175, 175);
