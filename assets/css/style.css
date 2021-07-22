@@ -11777,7 +11777,7 @@ SVG Icons - svgicons.sparkk.fr
 }
 
 .text-form-bg {
-  background: gold;
+  background: #e7e6f4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11790,7 +11790,7 @@ SVG Icons - svgicons.sparkk.fr
 
 .contact-me-info {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 0.5rem 1rem 1rem 1rem;
 }
 .contact-me-info h4 {
@@ -11799,15 +11799,16 @@ SVG Icons - svgicons.sparkk.fr
 .contact-me-info p {
   margin: 1rem 1rem;
   text-align: left;
+  font-size: 1.2rem;
 }
 @media (max-width: 575.98px) {
   .contact-me-info p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 991.98px) {
   .contact-me-info {
-    text-align: left;
+    text-align: center;
   }
 }
 @media (max-width: 575.98px) {
