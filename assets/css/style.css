@@ -10884,7 +10884,6 @@ body {
   -webkit-text-fill-color: transparent;
   margin-left: 1rem;
   margin-bottom: 1rem;
-  white-space: nowrap;
 }
 @media (max-width: 767.98px) {
   .display-3--title {
@@ -11080,6 +11079,10 @@ body {
   content: "";
 }
 
+nav {
+  margin: 0 auto;
+}
+
 .navbar-brand {
   color: #fff !important;
 }
@@ -11088,13 +11091,14 @@ body {
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
 }
 .menu li {
-  padding: 0 0.7rem;
+  padding: 0 0.4rem;
 }
 .menu li a {
   color: #fff !important;
   text-transform: capitalize;
   font-weight: 300;
   white-space: nowrap;
+  font-size: 1rem !important;
 }
 .menu button {
   font-weight: 300;
