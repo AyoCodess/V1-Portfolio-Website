@@ -10840,6 +10840,11 @@ textarea.form-control-lg {
   margin-left: 3rem;
 }
 
+.btn-outline-primary {
+  color: white;
+  border-color: white;
+}
+
 body {
   font-family: "Lato", sans-serif !important;
   font-weight: 300;
@@ -10934,6 +10939,10 @@ body {
   background-image: linear-gradient(to right, #2f3e24, #302b63, #0f0c29);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.h2-heading {
+  color: white;
 }
 
 /*!
@@ -11375,12 +11384,15 @@ body {
 .portfolio {
   margin: 0 auto;
   display: flex;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  width: 100%;
+  height: 100%;
 }
 .portfolio button {
   text-transform: capitalize;
 }
 .portfolio .portfolio-container {
-  border: 2px solid #302b63;
+  border: 2px solid white;
   border-radius: 1rem;
   padding: 1rem 1rem 0rem 1rem;
 }
@@ -11394,7 +11406,7 @@ body {
     align-items: center;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #302b63;
+    color: white;
   }
 }
 
@@ -11412,7 +11424,7 @@ body {
 .portfolio-heading p {
   font-size: 1.3rem;
   font-weight: 500;
-  color: #302b63;
+  color: white;
 }
 
 .portfolio-box {

@@ -5,12 +5,17 @@
   margin: 0 auto;
   display: flex;
 
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+
+  width: 100%;
+  height: 100%;
+
   button {
     text-transform: capitalize;
   }
 
   .portfolio-container {
-    border: 2px solid #302b63;
+    border: 2px solid white;
     border-radius: 1rem;
 
     padding: 1rem 1rem 0rem 1rem;
@@ -53,7 +58,7 @@
     // text-orientation: upright;
 
     font-weight: 700;
-    color: #302b63;
+    color: white;
 
     // top: 19%;
     // bottom: 50%;
@@ -87,7 +92,7 @@
   p {
     font-size: 1.3rem;
     font-weight: 500;
-    color: #302b63;
+    color: white;
   }
 }
 
