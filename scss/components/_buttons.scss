@@ -90,8 +90,11 @@
 
 .r-container {
   display: flex;
+  flex-direction: column;
   min-height: 45vh;
   padding-top: 5rem;
+
+  align-content: flex-start;
 }
 
 .btn-resume {
@@ -105,9 +108,21 @@
   color: #302b63;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: background-color 0.5s, color 0.5s;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.9rem;
+  font-weight: bold;
 
   &:hover {
     background-color: #302b63;
     color: white;
   }
+}
+
+#rbtn-1 {
+  margin-top: 7rem;
+}
+
+#rbtn-2 {
+  margin-bottom: 7rem;
 }
