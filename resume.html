@@ -123,34 +123,41 @@
                                  RESUME                                
 /////////////////////////////////////////////////////////////////////////////////////////////-->
 
-    <div class="r-container"><img class="loader-resume" src="/images/loader/loader.svg" alt=""></div>
+    <!-- <div class="r-container"><img class="loader-resume" src="/images/loader/loader.svg" alt=""></div> -->
 
-    <iframe id="resume" class="resume"
-   
-      src="https://www.ayoadesanya.com/assets/resume/Ayo%20Adesanya%20Resume%20-%20Web%20Developer.pdf#toolbar=0&scrollbar=0" 
-      frameBorder="0"
-      loading="lazy"
-      title="Ayo Adesanya Resume CV - Web Developer"
-      > <p>Your browser does not support iframes. Please use an updated Google Chrome, Firefox or Safari browser</p>
-    </iframe>
 
+    
+    
+    
+<!--     
+    <script>
+
+      const loaderResume = document.querySelector(`.r-container`);
       
- 
+      //?  image loader screen
+      window.addEventListener("load", function () {
+      
+        loaderResume.classList.add("hide");
+      
+      });
+      
+    </script>  -->
+
+    <div id="adobe-dc-view"></div>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script type="text/javascript">
+      document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+        var adobeDCView = new AdobeDC.View({clientId: "b0554d3bf5e54a12865ba9c1bfadc2a2", divId: "adobe-dc-view"});
+        adobeDCView.previewFile({
+          content:{location: {url: "https://www.ayoadesanya.com/assets/resume/Ayo%20Adesanya%20Resume%20-%20Web%20Developer.pdf"}},
+          metaData:{fileName: "Ayo Adesanya"}
+        }, {});
+      });
+    </script>
+
    
-<script>
-
-const loaderResume = document.querySelector(`.r-container`);
-const iframe = document.querySelector(`.resume`);
-//?  image loader screen
-window.addEventListener("load", function () {
-
-  loaderResume.classList.add("hide");
-
-});
-
-
-</script>
-
+ 
+  
 <script defer src="/other-js/navbar.js"></script>
 <script defer src="/assets/js/bootstrap.bundle.js"></script>
 

@@ -10739,7 +10739,7 @@ textarea.form-control-lg {
 }
 .resume {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin-top: 3.5rem;
   scroll-behavior: smooth;
 }
