@@ -83,28 +83,28 @@
           <a class="nav-link" href="https://blog.ayoadesanya.com" target="_blank" rel="noopener">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about-me">About Me</a>
+          <a class="nav-link" href="index.html#about-me">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#key-projects">Key Projects</a>
+          <a class="nav-link" href="index.html#key-projects">Key Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="index.html#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#faqs">FAQs</a>
+          <a class="nav-link" href="index.html#faqs">FAQs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#testimonials">Testimonials</a>
+          <a class="nav-link" href="index.html#testimonials">Testimonials</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/resume.html">Resume</a>
+          <a class="nav-link" href="resume.html">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact-me">Contact Me</a>
+          <a class="nav-link" href="index.html#contact-me">Contact Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#join-us">Join Us</a>
+          <a class="nav-link" href="index.html#join-us">Join Us</a>
         </li>
         <a href="mailto:ayo@ayoadesanya.com" target="_blank" rel="noopener">
           <button type="button" class="rounded-pill btn-rounded">ayo@ayoadesanya.com
@@ -120,12 +120,27 @@
                                  RESUME                                
 /////////////////////////////////////////////////////////////////////////////////////////////-->
 
+    <div class="r-container"><img class="loader-resume" src="/images/loader/loader.svg" alt=""></div>
 
     <iframe class="resume"
       src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://www.ayoadesanya.com/assets/resume/Ayo%20Adesanya%20Resume%20-%20Web%20Developer.pdf#toolbar=0&scrollbar=0"
       frameBorder="0"></iframe>
+
+      
  
    
+<script>
+const loaderResume = document.querySelector(`.r-container`);
+//?  image loader screen
+window.addEventListener("load", function () {
+
+ 
+  console.log(loaderResume)
+  loaderResume.classList.add("hide");
+ 
+});
+
+</script>
 
 <script defer src="/other-js/navbar.js"></script>
 <script defer src="/assets/js/bootstrap.bundle.js"></script>

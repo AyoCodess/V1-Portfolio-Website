@@ -10749,6 +10749,16 @@ textarea.form-control-lg {
   }
 }
 
+.r-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.loader-resume {
+  margin: auto;
+  width: 20rem;
+}
+
 @keyframes pulse-border {
   0% {
     transform: scale(1);
