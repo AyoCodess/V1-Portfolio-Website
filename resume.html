@@ -123,14 +123,10 @@
                                  RESUME                                
 /////////////////////////////////////////////////////////////////////////////////////////////-->
 
+<!-- loading  -->
     <!-- <div class="r-container"><img class="loader-resume" src="/images/loader/loader.svg" alt=""></div> -->
 
-
-    
-    
-    
-<!--     
-    <script>
+    <!-- <script>
 
       const loaderResume = document.querySelector(`.r-container`);
       
@@ -141,7 +137,9 @@
       
       });
       
-    </script>  -->
+    </script>   -->
+
+    <!--? Adobe PDF loader -->
 
     <div id="adobe-dc-view"></div>
     <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -150,7 +148,7 @@
         var adobeDCView = new AdobeDC.View({clientId: "b0554d3bf5e54a12865ba9c1bfadc2a2", divId: "adobe-dc-view"});
         adobeDCView.previewFile({
           content:{location: {url: "https://www.ayoadesanya.com/assets/resume/Ayo%20Adesanya%20Resume%20-%20Web%20Developer.pdf"}},
-          metaData:{fileName: "Ayo Adesanya"}
+          metaData:{fileName: "Ayo Adesanya Resume"}
         }, {});
       });
     </script>
