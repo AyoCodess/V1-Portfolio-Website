@@ -85,3 +85,29 @@
   color: white;
   border-color: white;
 }
+
+// ? resume button
+
+.r-container {
+  display: flex;
+  min-height: 30vh;
+  padding-top: 5rem;
+}
+
+.btn-resume {
+  margin: auto;
+  width: 20rem;
+  border-radius: 5rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  background: transparent;
+  border: none;
+  color: #302b63;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: background-color 0.5s, color 0.5s;
+
+  &:hover {
+    background-color: #302b63;
+    color: white;
+  }
+}

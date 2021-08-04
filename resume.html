@@ -123,43 +123,15 @@
                                  RESUME                                
 /////////////////////////////////////////////////////////////////////////////////////////////-->
 
-<!-- loading  -->
-    <!-- <div class="r-container"><img class="loader-resume" src="/images/loader/loader.svg" alt=""></div> -->
 
-    <!-- <script>
-
-      const loaderResume = document.querySelector(`.r-container`);
-      
-      //?  image loader screen
-      window.addEventListener("load", function () {
-      
-        loaderResume.classList.add("hide");
-      
-      });
-      
-    </script>   -->
-
-    <!--? Adobe PDF loader -->
-
-    <!-- <div id="adobe-dc-view" style="margin-top: 4rem;"></div>
-    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-    <script type="text/javascript">
-      document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-        var adobeDCView = new AdobeDC.View({clientId: "b0554d3bf5e54a12865ba9c1bfadc2a2", divId: "adobe-dc-view"});
-        adobeDCView.previewFile({
-          content:{location: {url: "https://www.ayoadesanya.com/assets/resume/Ayo%20Adesanya%20Resume%20-%20Web%20Developer.pdf"}},
-          metaData:{fileName: "Ayo Adesanya Resume"}},
-          {embedMode: "IN_LINE"
-        }, {});
-      });
-    </script> -->
-
-    <div class="r-container"><button  class="loader-resume" onclick="pdf()">Resume</button></div>
+<div class="r-container">
+  <button  class="btn-resume" onclick="pdf()">View Resume</button>
+</div>
 
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
 
-const button = document.getElementsByName("loader-resume")
+  const button = document.getElementsByName("btn-resume")
 	
   button.addEventListener("click", pdf);
 
@@ -171,9 +143,6 @@ const button = document.getElementsByName("loader-resume")
 			metaData:{fileName: "Ayo Adesanya Resume"}
 		}, {embedMode: "LIGHT_BOX"});
 	}
-
-
-  
 </script>
 
    
