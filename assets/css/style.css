@@ -10737,18 +10737,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.resume {
-  width: 100%;
-  height: 100%;
-  margin-top: 3.5rem;
-  scroll-behavior: smooth;
-}
-@media (max-width: 414px) {
-  .resume {
-    height: 100vh;
-  }
-}
-
 @keyframes pulse-border {
   0% {
     transform: scale(1);
@@ -10859,7 +10847,7 @@ textarea.form-control-lg {
 
 .r-container {
   display: flex;
-  min-height: 30vh;
+  min-height: 45vh;
   padding-top: 5rem;
 }
 
