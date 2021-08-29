@@ -126,6 +126,21 @@
   }
 }
 
+//? blog container fix
+.blog-footer-container {
+  @media (max-width: 1199px) {
+    padding-left: 2rem;
+  }
+
+  @media (max-width: 986px) {
+    padding-left: 0rem;
+  }
+}
+.blog-footer-container__2 {
+  @media (max-width: 993px) {
+    margin-top: 1rem;
+  }
+}
 .blog-link {
   text-decoration: none;
 }

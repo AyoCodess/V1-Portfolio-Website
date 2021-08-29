@@ -11735,6 +11735,23 @@ nav {
   align-items: center;
 }
 
+@media (max-width: 1199px) {
+  .blog-footer-container {
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 986px) {
+  .blog-footer-container {
+    padding-left: 0rem;
+  }
+}
+
+@media (max-width: 993px) {
+  .blog-footer-container__2 {
+    margin-top: 1rem;
+  }
+}
+
 .blog-link {
   text-decoration: none;
 }
