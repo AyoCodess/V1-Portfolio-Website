@@ -41,7 +41,7 @@ const projectContent = {
   stopholdingback: {
     name: "Stop Holding Back v4",
     description:
-      "This is a project i have been involved with since it's inception in 2017. SHB is UK registered charity helping people who stutter find careers. Please donate if you can.",
+      "This is a project I have been involved with since it's inception in 2017. SHB is UK registered charity helping people who stutter find careers. Please donate if you can.",
     technology: "<b> Custom HTML | Custom CSS | Built with WIX </b>",
     liveDemo: "https://www.stopholdingback.org",
     repo: "https://www.stopholdingback.org",
