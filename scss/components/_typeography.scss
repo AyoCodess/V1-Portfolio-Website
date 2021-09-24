@@ -1,4 +1,4 @@
-@use '../custom' as *;
+@use "../custom" as *;
 
 //?GLOBAL FONTS
 
@@ -110,4 +110,13 @@ body {
 
 .h2-heading {
   color: white;
+}
+
+//? stop holding back charity app icon (temp hack)
+.project-showcase-main-heading {
+  img {
+    width: 3rem !important;
+    height: 3rem !important;
+    // padding-top: 1rem !important;
+  }
 }

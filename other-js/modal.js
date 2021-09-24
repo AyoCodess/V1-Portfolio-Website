@@ -38,6 +38,14 @@ modal.addEventListener("show.bs.modal", function (event) {
 // //…
 
 const projectContent = {
+  stopholdingback_app: {
+    name: "Stop Holding Back - App",
+    description:
+      " This React app allows the public to filter and search through current SHB charity members, looking for a mentor to support them through their stuttering. Helping them build self-esteem and find the career they want despite their disability.",
+    technology: "<b> REACT | SASS | JSX </b>",
+    liveDemo: "https://staff.stopholdingback.org",
+    repo: "https://github.com/AyoCodess/React---SHB-Team-Chart-App",
+  },
   stopholdingback: {
     name: "Stop Holding Back v4",
     description:

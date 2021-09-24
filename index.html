@@ -39,6 +39,10 @@
       gtag('config', 'UA-172956970-4');
     </script>
 
+     <!--? Our project just needs Font Awesome solid + brand -->
+  <!-- <script defer src="/node_modules/@fortawesome/fontawesome-free/css/all.min.css"></script> -->
+  <!-- <script defer src="/node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script> -->
+
 
   <link rel="stylesheet" href="assets/css/style.css">
 
@@ -259,20 +263,21 @@
      <!-- ? Project 0 -->
   <div class="row align-items-center">
     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 project-showcase order-lg-1 order-2">
-      <div class="project-showcase__content"><img data-src="/images/key-projects/shb-app.png" alt="stop holding back app find a mentor" title="stop holding back app find a mentor"class="img-fluid lazyload"></div>
+      <div class="project-showcase__content">
+          <img data-src="/images/key-projects/shb-app.png" alt="stop holding back app find a mentor" title="stop holding back app find a mentor"class="img-fluid lazyload"></div>
     </div>
     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 project-showcase order-lg-2 order-1">
       <div class="project-showcase__content">
         <div class="project-showcase-main-heading">
-            <div class="icon fa-gem"></div>
+            <img class="icon" src="/images/key-projects/charity-icon.png"/>
               <div class="display-3--title">Stop Holding Back - React Database App</div>
         </div>
         <p class="lh-lg"><code>Technologies</code> <br><b>REACT | SASS | JSX </b></p>
       <p class="lh-lg">
-        This React app allows the public to filter and search through current SHB charity members and find the right mentor to support them through their stuttering, helping them build self-esteem and find the career they want despite the disability.</p>
+        This React app allows the public to filter and search through current SHB charity members, looking for a mentor to support them through their stuttering. Helping them build self-esteem and find the career they want despite their disability.</p>
       <div class="btn-container">
         <a href="https://staff.stopholdingback.org" target="_blank" rel="noopener">
-          <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase">Live Demo
+          <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase">Live Site
             <span><i class="fas fa-arrow-right"></i></span>
           </button>
         </a>
@@ -841,9 +846,36 @@
       <!-- <div class="scroll-text">Scroll entire page on the right side gap &nbsp<i class="fas fa-chevron-right"></i> <i class="fas fa-chevron-right"></i> <i class="fas fa-chevron-right"></i> </div> -->
       <div class="portfolio-container">
 
+        
+
  
   
   <div class="row">
+
+        <!-- * PROJECT -->
+        <div class="col-lg-4 col-md-6 apps all p-item">
+
+    
+            <div class="loader" id="loader">
+              <img data-src="/images/loader/loader.svg" class="lazyload">
+            </div>
+             <div class="portfolio-box  with-linear-gradient">
+                <img data-src="images/portfolio/shb-app.png" alt="stop holding back react database app - find a mentor" title="stop holding back react database app - find a mentor" class="img-fluid lazyload">
+                <div class="portfolio-info">
+                   <div class="caption">
+                      <div class="caption-title">Stop Holding Back - Find a Mentor App</div>
+                      <p>apps</p>
+                   </div>
+                   <div data-bs-toggle="modal" data-bs-target="#modal" id="stopholdingback_app">
+                   <button type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase portfolio-button" > <span><i class="fas fa-arrow-right"></i></span>
+                   More Info
+                   </button>
+                   </div>
+                </div>
+             </div>
+          </div>
+
+       <!-- * PROJECT -->
 
     <div class="col-lg-4 col-md-6 websites all p-item">
   
@@ -1589,7 +1621,7 @@
 
         <div class="btn-container">
           <a href="#" id="live-demo-button-in-modal" target="_blank" rel="noopener">
-            <button  type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase">Live Demo
+            <button  type="button" class="rounded-pill rounded-pill--mod btn-rounded btn-rounded--project-showcase">Live Site
               <span><i class="fas fas fa-arrow-right"></i></span>
             </button>
           </a>
