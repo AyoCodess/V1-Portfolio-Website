@@ -1,5 +1,5 @@
-@use "../custom" as *;
-@use "../components/mixins" as *;
+@use '../custom' as *;
+@use '../components/mixins' as *;
 @use '../components/fontawesome-icons' as *;
 
 .intro-container {
@@ -11,7 +11,7 @@
   }
 
   @media (max-width: 766px) {
-    padding-bottom: 4rem;
+    // padding-bottom: 4rem;
   }
 }
 
