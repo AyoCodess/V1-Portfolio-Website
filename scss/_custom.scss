@@ -75,12 +75,10 @@ $carousel-dark-control-icon-filter: invert(1) grayscale(100) !default;
   display: none !important;
 }
 
-html {
-  overflow-x: hidden;
-}
-
+html,
 body {
-  scroll-behavior: smooth !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 input[type='button'] {
