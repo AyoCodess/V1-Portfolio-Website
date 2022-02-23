@@ -83,5 +83,10 @@ body {
   scroll-behavior: smooth !important;
 }
 
+input[type='button'] {
+  font-family: Arial, sans-serif;
+  color: #2c3e50 !important;
+}
+
 //! IMPORT BOOTSTRAP
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
