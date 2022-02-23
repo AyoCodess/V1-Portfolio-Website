@@ -11160,7 +11160,7 @@ nav {
 }
 @media (max-width: 766px) {
   .intro-container {
-    padding-bottom: 4rem;
+    padding-bottom: 0rem;
   }
 }
 
