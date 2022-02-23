@@ -83,5 +83,10 @@ body {
   overflow-x: hidden;
 }
 
+input[type='button'] {
+  font-family: Arial, sans-serif;
+  color: #2c3e50;
+}
+
 //! IMPORT BOOTSTRAP
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
