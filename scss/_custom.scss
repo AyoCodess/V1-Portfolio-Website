@@ -76,16 +76,11 @@ $carousel-dark-control-icon-filter: invert(1) grayscale(100) !default;
 }
 
 html {
+  overflow-x: hidden;
 }
 
 body {
   scroll-behavior: smooth !important;
-  overflow-x: hidden;
-}
-
-input[type='button'] {
-  font-family: Arial, sans-serif;
-  color: #2c3e50 !important;
 }
 
 //! IMPORT BOOTSTRAP
