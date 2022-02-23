@@ -3,8 +3,16 @@
   display: none !important;
 }
 
+html,
 body {
-  scroll-behavior: smooth !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+input[type=button] {
+  font-family: Arial, sans-serif;
+  color: #2c3e50 !important;
 }
 
 /*!
@@ -11158,12 +11166,6 @@ nav {
   margin-top: 2rem;
   margin-right: 0.2rem;
 }
-@media (max-width: 766px) {
-  .intro-container {
-    padding-bottom: 4rem;
-  }
-}
-
 .intro-section {
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
   padding: 10rem 0 0 0;
@@ -11777,16 +11779,16 @@ SVG Icons - svgicons.sparkk.fr
   width: 2.5rem;
   height: 3rem;
   margin-left: 0.1rem;
+  fill: #2c3e50;
 }
 
 .svg-icon path,
 .svg-icon polygon,
 .svg-icon rect {
-  fill: #4691f6;
+  fill: #2c3e50;
 }
 
 .svg-icon circle {
-  stroke: #4691f6;
   stroke-width: 1;
 }
 
