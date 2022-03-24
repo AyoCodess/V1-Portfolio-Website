@@ -43,7 +43,7 @@ const projectContent = {
     description:
       'This app allows you to compare and analyse the crypto market quickly and objectively to help facilitate wiser investments.',
     technology: '<b>REACT | Coingecko API | Material UI | Tailwind CSS </b>',
-    liveDemo: 'https://www.coincora.com',
+    liveDemo: 'https://www.beta.coincora.com',
     repo: 'https://www.youtube.com/channel/UCPa_V2rk5cHyeZMHZuamqxA',
   },
   stopholdingback_app: {
