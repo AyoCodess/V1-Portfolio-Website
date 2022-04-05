@@ -38,11 +38,21 @@ modal.addEventListener('show.bs.modal', function (event) {
 // //…
 
 const projectContent = {
+  dashboard: {
+    name: 'All-in-one Dashboard',
+    description:
+      'This app was created as a take home project within 5 days in an hiring process. I love these types of challenges as it is an opportunity to display my current skills and gain some new ones! The read me file in the repo explains my project experience in depth.',
+    technology:
+      '<b>REACT | Tailwind CSS | React Router V6 | Auth0 | XML RSS Data | Open weather API | And many more... </b>',
+    liveDemo: 'https://ayocodes-dashboard.netlify.app/',
+    repo: 'https://github.com/AyoCodess/All-in-one-dashboard-FULLSTACK',
+  },
   coincora: {
     name: 'Coincora - Crypto Forecasting Tool',
     description:
       'This app allows you to compare and analyse the crypto market quickly and objectively to help facilitate wiser investments.',
-    technology: '<b>REACT | Coingecko API | Material UI | Tailwind CSS </b>',
+    technology:
+      '<b>REACT | Coingecko API | Material UI | Tailwind CSS | React Router v6 </b>',
     liveDemo: 'https://www.beta.coincora.com',
     repo: 'https://www.youtube.com/channel/UCPa_V2rk5cHyeZMHZuamqxA',
   },
