@@ -3,7 +3,6 @@ let modal = document.getElementById('modal');
 modal.addEventListener('show.bs.modal', function (event) {
   // ? Button that triggered the modal
   let buttonPressed = event.relatedTarget;
-  console.log(buttonPressed);
 
   //? SELECTING BUTTONS AND ELEMENTS INSIDE MODAL TO UPDATE DYNAMICALLY
   let modelButtonLiveDemo = document.querySelector(
@@ -38,6 +37,30 @@ modal.addEventListener('show.bs.modal', function (event) {
 // //…
 
 const projectContent = {
+  foundations: {
+    name: 'CRUD APP - Form Validation',
+    description:
+      'Working with user input validation. Displaying errors via a modal with dynamic error content. User data validation - try to break the project see what validation errors you get.',
+    technology: '<b>REACT | Bootstrap V5  </b>',
+    liveDemo: 'https://ayocodes-react-foundations.netlify.app/',
+    repo: 'https://github.com/AyoCodess/CRUD-APP-with-validaiton-Bootstrap-REACT',
+  },
+  reiz: {
+    name: 'Country Finder - React Web App',
+    description:
+      'Find your country, sort and filter by country name, area size and region. This was a take home assignment for a hiring process. Please checkout the read me in the Github repo for more information about the project.',
+    technology: '<b>REACT | Rest Countries API | Tailwind CSS </b>',
+    liveDemo: 'https://reiz-tech-app.netlify.app/',
+    repo: 'https://github.com/AyoCodess/Reiz-Tech-App-REACT',
+  },
+  phonebook: {
+    name: 'CRUD APP - Phone book',
+    description:
+      'Add, update and delete contacts from your phone book. Data is saved in local storage.',
+    technology: '<b>REACT | Tailwind CSS | Local storage </b>',
+    liveDemo: 'https://crud-phonebook.netlify.app/',
+    repo: 'https://github.com/AyoCodess/CRUD-APP-Phone-book-REACT',
+  },
   dashboard: {
     name: 'All-in-one Dashboard',
     description:
@@ -45,7 +68,7 @@ const projectContent = {
     technology:
       '<b>REACT | Tailwind CSS | React Router V6 | Auth0 | XML RSS Data | Open weather API | And many more... </b>',
     liveDemo: 'https://ayocodes-dashboard.netlify.app/',
-    repo: 'https://github.com/AyoCodess/All-in-one-dashboard-FULLSTACK',
+    repo: 'https://github.com/AyoCodess/All-in-one-dashboard-fullstack-REACT',
   },
   coincora: {
     name: 'Coincora - Crypto Forecasting Tool',
@@ -62,7 +85,7 @@ const projectContent = {
       ' This React app allows the public to filter and search through current SHB charity members, looking for a mentor to support them through their stuttering. Helping them build self-esteem and find the career they want despite their disability.',
     technology: '<b> REACT | SASS | JSX </b>',
     liveDemo: 'https://staff.stopholdingback.org',
-    repo: 'https://github.com/AyoCodess/React---SHB-Team-Chart-App',
+    repo: 'https://github.com/AyoCodess/SHB-Find-a-Mentor-REACT',
   },
   stopholdingback: {
     name: 'Stop Holding Back v4',
@@ -78,7 +101,7 @@ const projectContent = {
       'I had good time building the desktop and mobile versions, emulating the original website as best I could with a few new additions.',
     technology: '<b>HTML | CSS | JS</b>',
     liveDemo: 'https://microsoft-2021-website-ayocodess.netlify.app/',
-    repo: 'https://github.com/AyoCodess/Microsoft-Website-2021',
+    repo: 'https://github.com/AyoCodess/Remake-of-Microsoft-Website-2021-VANILLA-JS',
   },
   luxuryRealEstateCompany: {
     name: 'Luxury Real Estate Company',
@@ -86,7 +109,7 @@ const projectContent = {
       'One of my early projects. I wanted to give off a luxury feel... did I succeed? ',
     technology: '<b>HTML | CSS GRID ONLY</b>',
     liveDemo: 'https://realtor-landing-page-css-grid.netlify.app/',
-    repo: 'https://github.com/AyoCodess/CSS-Grid-Landing-Page',
+    repo: 'https://github.com/AyoCodess/Luxury-Real-Estate-Landing-page-VANILLA-JS',
   },
   IsitAGoodInvestment: {
     name: 'Isit A Good Investment?',
@@ -94,7 +117,7 @@ const projectContent = {
       'Learn how to invest in crypto safely and join a private syndicate of investors - Landing page.',
     technology: '<b>HTML | SASS | JS | AOS Library </b>',
     liveDemo: 'https://isitagoodinvestment.netlify.app/',
-    repo: 'https://github.com/AyoCodess/IIAGI-Website',
+    repo: 'https://github.com/AyoCodess/Crypto-Club-Landing-Page-VANILLA-JS',
   },
   sassLandingPage: {
     name: 'SASS Website - Ultra Light/Dark Mode 2021',
@@ -102,14 +125,14 @@ const projectContent = {
       'Re-envisioned the SASS landing page with a dark and light theme implementation. Local storage automatically saves your choice of theme.',
     technology: '<b>HTML | SASS | JS</b>',
     liveDemo: 'https://sass-landing-page-ayocodess.netlify.app/',
-    repo: 'https://github.com/AyoCodess/Sass-Landing-Page',
+    repo: 'https://github.com/AyoCodess/Remake-of-the-SASS-Website-VANILLA-JS',
   },
   travelCompanyLandingPage: {
     name: 'Travel Company Landing Page',
     description: 'Simple brochure style page for a travel company. ',
     technology: '<b>HTML | CSS </b>',
     liveDemo: 'https://ayo-booking-app.netlify.app/',
-    repo: 'https://github.com/AyoCodess/trillo-landing-page',
+    repo: 'https://github.com/AyoCodess/Travel-Company-Landing-page-VANILLA-JS',
   },
 
   netflixCrimson: {
@@ -118,7 +141,7 @@ const projectContent = {
       'Completely re-built from the ground up with a nice customized Bootstrap V.5 FAQ component.  ',
     technology: '<b>HTML | CSS | JS | Bootstrap V.5</b>',
     liveDemo: 'https://crimson-neflix-landpage.netlify.app/',
-    repo: 'https://github.com/AyoCodess/Crimson-Netflix-Landing-Page',
+    repo: 'https://github.com/AyoCodess/Netflix-Landing-Page-VANILLA-JS',
   },
   myPortfolioWebsite: {
     name: 'This Website!',
@@ -126,7 +149,7 @@ const projectContent = {
       'This website was built from ground up and is continually being developed. This was also my first attempt and learning and implementing bootstrap for the very first time. ',
     technology: '<b>HTML | SASS | JS | Bootstrap V.5 </b>',
     liveDemo: 'https://www.ayoadesanya.com/',
-    repo: 'https://github.com/AyoCodess/Portfolio-Website',
+    repo: 'https://github.com/AyoCodess/Portfolio-Website-VANILLA-JS',
   },
 
   backgroundGradientGenerator: {
@@ -135,7 +158,7 @@ const projectContent = {
       'Generate any linear gradient background you want from any two colors you want.',
     technology: '<b>HTML | CSS GRID ONLY</b>',
     liveDemo: 'https://bgchanger-ayo.netlify.app/',
-    repo: 'https://github.com/AyoCodess/background-changer-app',
+    repo: 'https://github.com/AyoCodess/Background-Changer-App-VANILLA-JS',
   },
   ayoBlogSite: {
     name: 'Ayo Codes - The Blog',
@@ -144,7 +167,7 @@ const projectContent = {
     technology:
       '<b>HTML | SASS | JS | 11ty | Nunjunks | Netlify CMS | Disqus</b>',
     liveDemo: 'https://blog.ayoadesanya.com',
-    repo: 'https://github.com/AyoCodess/my-coding-blog',
+    repo: 'https://github.com/AyoCodess/Personal-Coding-Blog-11ty-VANILLA-JS',
   },
   dbzMusicPlayer: {
     name: 'DBZ Music Player',
@@ -153,7 +176,7 @@ const projectContent = {
     technology: '<b>HTML | CSS | JS </b>',
     liveDemo:
       'https://js-project-collection.netlify.app/dbz-music-player/dbz-music-player.html',
-    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase/tree/master/dbz-music-player',
+    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase-VANILLA-JS/tree/master/dbz-music-player',
   },
   yourCountdown: {
     name: 'Your Countdown',
@@ -162,7 +185,7 @@ const projectContent = {
     technology: '<b>HTML | CSS | JS</b>',
     liveDemo:
       'https://js-project-collection.netlify.app/your-countdown/your-countdown.html',
-    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase/tree/master/your-countdown',
+    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase-VANILLA-JS/tree/master/your-countdown',
   },
   pip: {
     name: 'Picture In Picture + Instant Webcam',
@@ -171,7 +194,7 @@ const projectContent = {
     technology: '<b>HTML | CSS | JS | Screen Capture API | Webcam API </b>',
     liveDemo:
       'https://js-project-collection.netlify.app/picture-in-picture/picture-in-picture.html',
-    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase/tree/master/picture-in-picture',
+    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase-VANILLA-JS/tree/master/picture-in-picture',
   },
 
   superNavigation: {
@@ -181,7 +204,7 @@ const projectContent = {
     technology: '<b>HTML | CSS | JS </b>',
     liveDemo:
       'https://js-project-collection.netlify.app/super-navigation/super-navigation.html',
-    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase/tree/master/super-navigation',
+    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase-VANILLA-JS/tree/master/super-navigation',
   },
   jokeTeller: {
     name: 'Thw Joker Joke Teller',
@@ -189,7 +212,7 @@ const projectContent = {
     technology: '<b>HTML | CSS | JS | Text-to-speech API |</b>',
     liveDemo:
       'https://js-project-collection.netlify.app/joke-teller/joke-teller.html',
-    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase/tree/master/joke-teller',
+    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase-VANILLA-JS/tree/master/joke-teller',
   },
   infiniteScroll: {
     name: 'Infinite Crypto Scroll',
@@ -198,7 +221,7 @@ const projectContent = {
     technology: '<b>HTML | CSS | Unsplash API </b>',
     liveDemo:
       'https://js-project-collection.netlify.app/infinite-scroll-gallery/infinite-scroll-gallery',
-    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase/tree/master/infinite-scroll-gallery',
+    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase-VANILLA-JS/tree/master/infinite-scroll-gallery',
   },
   quoteGenerator: {
     name: 'Quote Generator',
@@ -206,14 +229,14 @@ const projectContent = {
     technology: '<b>HTML | CSS | Quote API </b>',
     liveDemo:
       'https://js-project-collection.netlify.app/quote-generator/quote-generator.html',
-    repo: 'https://js-project-collection.netlify.app/quote-generator/quote-generator.html',
+    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase-VANILLA-JS/tree/master/quote-generator.html',
   },
   projectShowcase: {
     name: 'JS Project Showcase',
     description: 'A collection of javascript projects.',
     technology: '<b>HTML | CSS | JS | APIs </b>',
     liveDemo: 'https://js-project-collection.netlify.app/',
-    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase',
+    repo: 'https://github.com/AyoCodess/The-JS-Project-Showcase-VANILLA-JS',
   },
 
   minimalistFrom: {
@@ -221,13 +244,13 @@ const projectContent = {
     description: 'A simple, yet modern form.',
     technology: '<b>HTML | CSS </b>',
     liveDemo: 'https://modern-blue-form.netlify.app/',
-    repo: 'https://github.com/AyoCodess/Modern-Blue-Form-Theme',
+    repo: 'https://github.com/AyoCodess/Modern-Blue-Form-Theme-VANILLA-JS',
   },
   basicShoppingListApp: {
     name: 'Shopping List App',
     description: 'A simple shopping list app.',
     technology: '<b>HTML | CSS </b>',
     liveDemo: 'https://the-simple-todo-app.netlify.app/',
-    repo: 'https://github.com/AyoCodess/The-Simple-todo-App',
+    repo: 'https://github.com/AyoCodess/The-Simple-Todo-App-VANILLA-JS',
   },
 };
