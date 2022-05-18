@@ -37,6 +37,15 @@ modal.addEventListener('show.bs.modal', function (event) {
 // //…
 
 const projectContent = {
+  pokemon: {
+    name: 'Pokemon & Vs App',
+    description:
+      'This app was a 2 day build challenge with the task of building a React.js web UI that interfaces with the Pokemon API. This App is a PokeDex app with an added pokemon comparison feature.',
+    technology:
+      '<b>REACT | Tailwind CSS | React Router V6 | React-Pagination | Axios | Pokemon API </b>',
+    liveDemo: 'https://pokedex-ayocodes.netlify.app/',
+    repo: 'https://github.com/AyoCodess/Pokedex-REACT',
+  },
   foundations: {
     name: 'CRUD APP - Form Validation',
     description:
