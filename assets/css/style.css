@@ -10902,6 +10902,7 @@ body {
 .display-2--intro {
   display: inline-block;
   font-weight: 700;
+  font-size: 10rem;
   color: #fff;
 }
 .display-2--description {
@@ -11163,7 +11164,7 @@ nav {
   padding-bottom: 2rem;
 }
 .intro-container .hand {
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-right: 0.2rem;
 }
 @media (max-width: 766px) {
