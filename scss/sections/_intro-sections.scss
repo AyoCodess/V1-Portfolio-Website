@@ -15,6 +15,30 @@
   }
 }
 
+@media (min-width: 1010px) {
+  .desktop-position {
+    margin-left: 0.5rem !important;
+  }
+}
+
+@media (min-width: 1210px) {
+  .desktop-position {
+    margin-left: 1rem !important;
+  }
+}
+
+@media (min-width: 1410px) {
+  .desktop-position {
+    margin-left: 4rem !important;
+  }
+}
+
+@media (min-width: 1410px) {
+  .hand {
+    margin-right: -1rem !important;
+  }
+}
+
 .intro-section {
   @include gradient;
   padding: 10rem 0 0 0;
