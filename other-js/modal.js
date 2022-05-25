@@ -37,6 +37,22 @@ modal.addEventListener('show.bs.modal', function (event) {
 // //…
 
 const projectContent = {
+  musicapi: {
+    name: 'Musicbrainz Microservice API',
+    description:
+      'I built a small JavaScript/Node.js backend service with just 1 endpoint(The service). The service consumed the MusicBrainz API and re-organized data',
+    technology: '<b>NODE | HTML | Axios | Railway.app Deployment </b>',
+    liveDemo: 'https://musicbrainz-microservice-api-ayocodes.up.railway.app/',
+    repo: 'https://github.com/AyoCodess/Microservice-for-MusicBrainz-API-NODEJS',
+  },
+  tradingpairs: {
+    name: 'Crypto Trading Pairs App',
+    description:
+      'I created a small frontend application using any framework that allows users to select a trading pair from an API, display information about the trading pair and its live price change every 10 seconds and view the Bitcoin average price from 3 different exchanges.',
+    technology: '<b>REACT | reCharts | Tailwind CSS | Axios </b>',
+    liveDemo: 'https://crypto-trading-pairs-app.netlify.app/',
+    repo: 'https://github.com/AyoCodess/Crypto-Trading-Pairs-App-REACT',
+  },
   pokemon: {
     name: 'Pokemon & Vs App',
     description:
