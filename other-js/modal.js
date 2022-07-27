@@ -37,11 +37,28 @@ modal.addEventListener('show.bs.modal', function (event) {
 // //…
 
 const projectContent = {
+  ayocodesapi: {
+    name: 'AyoCodes REST API',
+    description:
+      'The original third-party API suddenly stopped working so I decided to create my own API for some of my personal projects going forward.',
+    technology:
+      '<b>Javascript | Node | Express | Railway.app Deployment Service | Tailwind CSS </b>',
+    liveDemo: 'https://ayocodes-api.up.railway.app/',
+    repo: 'https://github.com/AyoCodess/API-for-personal-projects',
+  },
+  studentdatabase: {
+    name: 'Ex-Student Database Web App',
+    description:
+      'A collection of schools want a web application to help them manage the contact information they hold on ex-students. The data was fetched from my own API.',
+    technology: '<b>REACT | Tailwind CSS | Axios | My Own Personal API </b>',
+    liveDemo: 'https://student-database-ayocodes.netlify.app/',
+    repo: 'https://github.com/AyoCodess/Ex-Student-Database-Fullstack-REACT',
+  },
   musicapi: {
     name: 'Musicbrainz Microservice API',
     description:
       'I built a small JavaScript/Node.js backend service with just 1 endpoint(The service). The service consumed the MusicBrainz API and re-organized data',
-    technology: '<b>NODE | HTML | Axios | Railway.app Deployment </b>',
+    technology: '<b>NODE | HTML | Axios | Railway.app Deployment Service </b>',
     liveDemo: 'https://musicbrainz-microservice-api-ayocodes.up.railway.app/',
     repo: 'https://github.com/AyoCodess/Microservice-for-MusicBrainz-API-NODEJS',
   },
