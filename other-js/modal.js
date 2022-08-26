@@ -37,13 +37,22 @@ modal.addEventListener('show.bs.modal', function (event) {
 // //…
 
 const projectContent = {
+  fbclone: {
+    name: 'Leave Your Mark - Facebook Clone (Full Stack)',
+    description:
+      'This app acts as a pinboard for anyone to use. Think of it like a mood board, a Pinterest-type app with a Facebook user interface. You can share your photos and your writing. And browse the posts of others.',
+    technology:
+      '<b>Next.js | Next.Auth | Typescript | Tailwind | Firebase V9</b>',
+    liveDemo: 'https://leaveyourmark.vercel.app/',
+    repo: 'https://github.com/AyoCodess/Facebook-Clone-Functional-NextJs-Firebase-Tailwind-Typescript',
+  },
   ayocodesapi: {
     name: 'AyoCodes REST API',
     description:
       'The original third-party API suddenly stopped working so I decided to create my own API for some of my personal projects going forward.',
     technology:
       '<b>Javascript | Node | Express | Railway.app Deployment Service | Tailwind CSS </b>',
-    liveDemo: 'https://ayocodes-api.up.railway.app/',
+    liveDemo: 'https://api-for-personal-projects.vercel.app',
     repo: 'https://github.com/AyoCodess/API-for-personal-projects',
   },
   studentdatabase: {
