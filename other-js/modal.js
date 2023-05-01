@@ -67,9 +67,8 @@ const projectContent = {
     name: 'Musicbrainz Microservice API',
     description:
       'I built a small JavaScript/Node.js backend service with just 1 endpoint(The service). The service consumed the MusicBrainz API and re-organized data',
-    technology: '<b>NODE | HTML | Axios | Vercel Deployment Service </b>',
-    liveDemo:
-      'https://microservice-for-music-brainz-api-nodejs-3zo78xesw-ayocodess.vercel.app/',
+    technology: '<b>NODE | HTML | Axios | Render Deployment Service </b>',
+    liveDemo: 'https://musicbrainz-api.onrender.com/',
     repo: 'https://github.com/AyoCodess/Microservice-for-MusicBrainz-API-NODEJS'
   },
   tradingpairs: {
