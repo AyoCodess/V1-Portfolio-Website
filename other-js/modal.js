@@ -51,7 +51,7 @@ const projectContent = {
     description:
       'The original third-party API suddenly stopped working so I decided to create my own API for some of my personal projects going forward.',
     technology:
-      '<b>Javascript | Node | Express | Railway.app Deployment Service | Tailwind CSS </b>',
+      '<b>Javascript | Node | Express | Vercel Deployment Service | Tailwind CSS </b>',
     liveDemo: 'https://api-for-personal-projects.vercel.app',
     repo: 'https://github.com/AyoCodess/API-for-personal-projects'
   },
@@ -67,7 +67,7 @@ const projectContent = {
     name: 'Musicbrainz Microservice API',
     description:
       'I built a small JavaScript/Node.js backend service with just 1 endpoint(The service). The service consumed the MusicBrainz API and re-organized data',
-    technology: '<b>NODE | HTML | Axios | Railway.app Deployment Service </b>',
+    technology: '<b>NODE | HTML | Axios | Vercel Deployment Service </b>',
     liveDemo:
       'https://microservice-for-music-brainz-api-nodejs-3zo78xesw-ayocodess.vercel.app/',
     repo: 'https://github.com/AyoCodess/Microservice-for-MusicBrainz-API-NODEJS'
