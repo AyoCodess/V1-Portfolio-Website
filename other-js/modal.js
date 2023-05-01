@@ -40,7 +40,7 @@ const projectContent = {
   fbclone: {
     name: 'Leave Your Mark - Facebook Clone (Full Stack)',
     description:
-      'This app acts as a pinboard for anyone to use. Think of it like a mood board, a Pinterest-type app with a Facebook user interface. You can share your photos and your writing. And browse the posts of others.',
+      'This app acts as a pin board for anyone to use. Think of it like a mood board, a Pinterest-type app with a Facebook user interface. You can share your photos,posts and browse the posts of others.',
     technology:
       '<b>Next.js | Next.Auth | Typescript | Tailwind | Firebase V9</b>',
     liveDemo: 'https://leaveyourmark.vercel.app/',
