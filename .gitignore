@@ -4,4 +4,4 @@ node_modules
 .prettierignore
 theming-kit.html
 .htmlnanorc
-.dist
+dist
