@@ -1,6 +1,6 @@
 const sharp = require("sharp");
 const fs = require("fs");
-const directory = "./images/arts";
+const directory = '.public/static/images/arts';
 
 fs.readdirSync(directory).forEach((file) => {
   sharp(`${directory}/${file}`)
