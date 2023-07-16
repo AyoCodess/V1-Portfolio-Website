@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "live-server",
     "sass": "sass --watch scss:assets/css",
     "build": "parcel build index.html"
   },
