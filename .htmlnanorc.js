@@ -1,4 +1,6 @@
+const { process } = require('htmlnano');
+
 module.exports = {
-  minifySvg: false,
+  minifySvg: false
 };
-cd; 
+const cd = process;
