@@ -217,7 +217,7 @@ const projectContent = {
       ' This was my first time using a static site generator with a headless CMS. We have pagination functionality for every 10 posts. It was challenging at times but I got the job done. Visit the blog to read more about my coding ups and downs.',
     technology:
       '<b>HTML | SASS | JS | 11ty | Nunjunks | Netlify CMS | Disqus</b>',
-    liveDemo: 'https://blog.ayoadesanya.com',
+    liveDemo: 'https://blogv1.ayoadesanya.com',
     repo: 'https://github.com/AyoCodess/Personal-Coding-Blog-11ty-VANILLA-JS'
   },
   dbzMusicPlayer: {
