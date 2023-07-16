@@ -8,17 +8,17 @@
       ((function () {
         var e;
         var t = {
-          lazyClass: "lazyload",
-          loadedClass: "lazyloaded",
-          loadingClass: "lazyloading",
-          preloadClass: "lazypreload",
-          errorClass: "lazyerror",
-          autosizesClass: "lazyautosizes",
-          fastLoadedClass: "ls-is-cached",
+          lazyClass: 'lazyload',
+          loadedClass: 'lazyloaded',
+          loadingClass: 'lazyloading',
+          preloadClass: 'lazypreload',
+          errorClass: 'lazyerror',
+          autosizesClass: 'lazyautosizes',
+          fastLoadedClass: 'ls-is-cached',
           iframeLoadMode: 0,
-          srcAttr: "data-src",
-          srcsetAttr: "data-srcset",
-          sizesAttr: "data-sizes",
+          srcAttr: 'src',
+          srcsetAttr: 'data-srcset',
+          sizesAttr: 'data-sizes',
           minSize: 40,
           customMedia: {},
           init: true,
@@ -27,7 +27,7 @@
           loadMode: 2,
           loadHidden: true,
           ricTimeout: 0,
-          throttleDelay: 125,
+          throttleDelay: 125
         };
         H = u.lazySizesConfig || u.lazysizesConfig || {};
         for (e in t) {
