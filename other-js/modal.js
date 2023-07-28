@@ -199,7 +199,7 @@ const projectContent = {
     description:
       'This website was built from ground up and is continually being developed. This was also my first attempt and learning and implementing bootstrap for the very first time. ',
     technology: '<b>HTML | SASS | JS | Bootstrap V.5 </b>',
-    liveDemo: 'https://www.ayoadesanya.com/',
+    liveDemo: 'https://v1.ayoadesanya.com/',
     repo: 'https://github.com/AyoCodess/Portfolio-Website-VANILLA-JS'
   },
 
