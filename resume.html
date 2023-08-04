@@ -127,7 +127,7 @@
 <div class="r-container">
   <!-- <p id="rbtn-1" class="btn-resume btn-resume--1" onclick="pdf()">View Resume</p> -->
     <a id="rbtn-1" class="btn-resume btn-resume--1" rel="no-referrer" target="_blank" href="https://www.linkedin.com/in/ayoadesanya/">Visit LinkedIn</a>
-  <a id="rbtn-2" class="btn-resume btn-resume--2" href="assets/resume/Ayo Adesanya Resume - Web Developer.pdf" download="Ayo Adesanya Resume - Web Developer">Download Resume</a>
+  <a id="rbtn-2" class="btn-resume btn-resume--2" href="assets/resume/Ayo Adesanya - Web Developer Resume.pdf" download="Ayo Adesanya - Web Developer Resume">Download Resume</a>
 </div>
 
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -137,11 +137,20 @@
 	
   button.addEventListener("click", pdf);
 
-  function pdf() {
+  // function pdf() {
+
+  //   var adobeDCView = new AdobeDC.View({clientId: "b0554d3bf5e54a12865ba9c1bfadc2a2"});
+	// 	adobeDCView.previewFile({
+	// 		content:{location: {url: "https://v1.ayoadesanya.com/assets/resume/Ayo%20Adesanya%20Resume%20-%20Web%20Developer.pdf"}},
+	// 		metaData:{fileName: "Ayo Adesanya Resume"}
+	// 	}, {embedMode: "LIGHT_BOX"});
+	// }
+
+    function pdf() {
 
     var adobeDCView = new AdobeDC.View({clientId: "b0554d3bf5e54a12865ba9c1bfadc2a2"});
 		adobeDCView.previewFile({
-			content:{location: {url: "https://v1.ayoadesanya.com/assets/resume/Ayo%20Adesanya%20Resume%20-%20Web%20Developer.pdf"}},
+			content:{location: {url: "https://v1.ayoadesanya.com/assets/resume/Ayo%20Adesanya%20-%20Web%20Developer%20Resume.pdf"}},
 			metaData:{fileName: "Ayo Adesanya Resume"}
 		}, {embedMode: "LIGHT_BOX"});
 	}
